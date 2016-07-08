@@ -1,0 +1,46 @@
+prototype(TYPO3.Neos:Page) {
+
+    head {
+        stylesheets {
+            mainSiteCss = TYPO3.TypoScript:Tag {
+                @position = '10'
+                tagName = 'link'
+                attributes {
+                    id = 'site-main-css'
+                    media = 'all'
+                    rel = 'stylesheet'
+                    href = TYPO3.TypoScript:ResourceUri {
+                        path = 'resource://ObisConcept.NeosDemo/Public/Styles/main.min.css'
+                    }
+                }
+            }
+        }
+
+        javascripts {
+            mainSiteJs = TYPO3.TypoScript:Tag {
+                @position = '10'
+                tagName = 'script'
+                attributes {
+                    type = 'text/javascript'
+                    src = TYPO3.TypoScript:ResourceUri {
+                        path = 'resource://ObisConcept.NeosDemo/Public/JavaScript/main.min.js'
+                    }
+                }
+            }
+
+            backendSiteJs = TYPO3.TypoScript:Tag {
+                @position = '20'
+                tagName = 'script'
+                attributes {
+                    type = 'text/javascript'
+                    src = TYPO3.TypoScript:ResourceUri {
+                        path = 'resource://ObisConcept.NeosDemo/Public/JavaScript/backend.min.js'
+                    }
+                }
+                @if.onlyRenderWhenNotInLiveWorkspace = ${node.context.workspace.name != 'live'}
+            }
+        }
+
+    }
+
+}

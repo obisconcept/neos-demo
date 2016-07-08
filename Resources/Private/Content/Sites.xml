@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <site name="www.example.com" state="1" siteResourcesPackageKey="ObisConcept.NeosDemo" siteNodeName="neosdemo">
+        <nodes formatVersion="2.0">
+            <node identifier="4a336291-cd98-edf2-2fe1-8931ba3f7a7e" nodeName="neosdemo">
+                <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="2" removed="" hidden="" hiddenInIndex="">
+                    <dimensions>
+                        <language>de</language>
+                    </dimensions>
+                    <accessRoles __type="array"/>
+                    <creationDateTime __type="object" __classname="DateTime">2015-11-18T16:00:46+01:00</creationDateTime>
+                    <lastModificationDateTime __type="object" __classname="DateTime">2015-11-18T16:02:21+01:00</lastModificationDateTime>
+                    <properties>
+                        <title __type="string">Home</title>
+                        <uriPathSegment __type="string">home</uriPathSegment>
+                    </properties>
+                </variant>
+                <node identifier="9ae45450-4d71-deab-9dc1-a106b96e894f" nodeName="main">
+                    <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+                        <dimensions>
+                            <language>de</language>
+                        </dimensions>
+                        <accessRoles __type="array"/>
+                        <creationDateTime __type="object" __classname="DateTime">2015-11-18T16:00:46+01:00</creationDateTime>
+                        <lastModificationDateTime __type="object" __classname="DateTime">2015-11-18T16:02:21+01:00</lastModificationDateTime>
+                        <properties/>
+                    </variant>
+                    <node identifier="b0cb04b6-d88e-43ea-6603-579aac531e5b" nodeName="text1">
+                        <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="2" removed="" hidden="" hiddenInIndex="">
+                            <dimensions>
+                                <language>de</language>
+                            </dimensions>
+                            <accessRoles __type="array"/>
+                            <creationDateTime __type="object" __classname="DateTime">2015-11-18T16:00:46+01:00</creationDateTime>
+                            <lastModificationDateTime __type="object" __classname="DateTime">2015-11-18T16:02:21+01:00</lastModificationDateTime>
+                            <properties>
+                                <text __type="string">&lt;p&gt;This is the homepage&lt;/p&gt;</text>
+                            </properties>
+                        </variant>
+                    </node>
+                </node>
+            </node>
+        </nodes>
+    </site>
+</root>

@@ -1,0 +1,17 @@
+TYPO3:
+  TYPO3CR:
+    contentDimensions:
+      'language':
+        default: 'de'
+        defaultPreset: 'de'
+        presets:
+          'de':
+            label: 'German'
+            values: ['de']
+            uriSegment: 'de'
+
+  Neos:
+    userInterface:
+      translation:
+        autoInclude:
+          'ObisConcept.NeosDemo': ['Main', 'NodeTypes/*']

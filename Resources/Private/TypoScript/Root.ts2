@@ -1,0 +1,36 @@
+include: ProtoTypes/*
+
+page = Page {
+    head {
+        titleTag {
+            content.@process.addBrand = ${'Neos Demo | ' + value}
+        }
+
+        iconTag = TYPO3.TypoScript:Tag {
+            @position = 'after titleTag'
+            tagName = 'link'
+            attributes {
+                rel = 'shortcut icon'
+                href = TYPO3.TypoScript:ResourceUri {
+                    path = 'resource://ObisConcept.NeosDemo/Public/Images/favicon.ico'
+                }
+            }
+        }
+    }
+
+    body {
+        templatePath = 'resource://ObisConcept.NeosDemo/Private/Templates/Page/Default.html'
+        sectionName = 'body'
+
+        parts {
+            menu = Menu
+            breadcrumb = Breadcrumb
+        }
+
+        content {
+            main = PrimaryContent {
+                nodePath = 'main'
+            }
+        }
+    }
+}

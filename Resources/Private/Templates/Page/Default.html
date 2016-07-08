@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<f:section name="body">
+    <nav class="menu">
+        {parts.menu -> f:format.raw()}
+    </nav>
+    <nav class="breadcrumb">
+        {parts.breadcrumb -> f:format.raw()}
+    </nav>
+    <div class="content">
+        {content.main -> f:format.raw()}
+    </div>
+</f:section>
+</body>
+</html>
