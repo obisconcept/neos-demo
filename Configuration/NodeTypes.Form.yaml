@@ -1,0 +1,10 @@
+'TYPO3.Neos.NodeTypes:Form':
+  properties:
+    'formIdentifier':
+      ui:
+        inspector:
+          editorOptions:
+            values:
+              '': ~
+              'contact-form':
+                label: 'Kontakt Formular'

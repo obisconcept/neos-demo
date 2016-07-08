@@ -23,44 +23,40 @@ renderables:
           -
             type: 'TYPO3.Form:SingleLineText'
             identifier: name
+            label: 'Name'
             validators:
               - identifier: 'TYPO3.Flow:NotEmpty'
             properties:
               placeholder: 'Name'
-              elementClassAttribute: 'form-control'
-              containerInnerClassAttribute: 'col-sm-12'
             defaultValue: ''
           -
             type: 'TYPO3.Form:SingleLineText'
             identifier: email
+            label: 'E-Mail'
             validators:
               - identifier: 'TYPO3.Flow:NotEmpty'
               - identifier: 'TYPO3.Flow:EmailAddress'
             properties:
               placeholder: 'E-Mail'
-              elementClassAttribute: 'form-control'
-              containerInnerClassAttribute: 'col-sm-12'
             defaultValue: ''
           -
             type: 'TYPO3.Form:SingleLineText'
             identifier: subject
+            label: 'Betreff'
             validators:
               - identifier: 'TYPO3.Flow:NotEmpty'
             properties:
               placeholder: 'Betreff'
-              elementClassAttribute: 'form-control'
-              containerInnerClassAttribute: 'col-sm-12'
             defaultValue: ''
           -
             type: 'TYPO3.Form:MultiLineText'
             identifier: message
+            label: 'Nachricht'
             validators:
               - identifier: 'TYPO3.Flow:NotEmpty'
             properties:
               placeholder: 'Nachricht'
-              elementClassAttribute: 'form-control'
               rows: 10
-              containerInnerClassAttribute: 'col-sm-12'
             defaultValue: ''
           -
             type: 'ObisConcept.NeosBootstrapForm:GoogleCaptcha'
