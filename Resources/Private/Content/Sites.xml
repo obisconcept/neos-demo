@@ -3,16 +3,17 @@
  <site name="www.example.com" state="1" siteResourcesPackageKey="ObisConcept.NeosDemo" siteNodeName="neosdemo">
   <nodes formatVersion="2.0">
    <node identifier="4a336291-cd98-edf2-2fe1-8931ba3f7a7e" nodeName="neosdemo">
-    <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="2" removed="" hidden="" hiddenInIndex="">
+    <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
      <dimensions>
       <language>de</language>
      </dimensions>
      <accessRoles __type="array"/>
      <creationDateTime __type="object" __classname="DateTime">2015-11-18T16:00:46+00:00</creationDateTime>
-     <lastModificationDateTime __type="object" __classname="DateTime">2015-11-18T16:02:21+00:00</lastModificationDateTime>
+     <lastModificationDateTime __type="object" __classname="DateTime">2016-07-08T11:21:20+00:00</lastModificationDateTime>
+     <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-08T11:21:20+00:00</lastPublicationDateTime>
      <properties>
-      <title __type="string">Home</title>
-      <uriPathSegment __type="string">home</uriPathSegment>
+      <title __type="string">Startseite</title>
+      <uriPathSegment __type="string">startseite</uriPathSegment>
      </properties>
     </variant>
     <node identifier="9ae45450-4d71-deab-9dc1-a106b96e894f" nodeName="main">
@@ -147,6 +148,48 @@
         <properties>
          <redirectAfterLogin __type="string">ede7c400-76ce-42ae-bd4b-f4474ec01140</redirectAfterLogin>
          <redirectAfterLogout __type="string">4a336291-cd98-edf2-2fe1-8931ba3f7a7e</redirectAfterLogout>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="ffb5848e-8bb6-4270-97e9-deaf8572c205" nodeName="node-577fa24fe5de7">
+     <variant sortingIndex="350" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2016-07-08T12:53:35+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2016-07-08T12:53:49+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-08T12:53:49+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">kontakt</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Kontakt</title>
+      </properties>
+     </variant>
+     <node identifier="a94fb984-4dc0-5ba9-fb50-ff1bd6b0ac22" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2016-07-08T12:53:35+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2016-07-08T12:53:49+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-08T12:53:49+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="5bd3c395-8ead-437c-be34-b443df3cbe21" nodeName="node-577fa256f1234">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Form" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2016-07-08T12:53:42+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2016-07-08T13:06:51+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-08T13:06:51+00:00</lastPublicationDateTime>
+        <properties>
+         <formIdentifier __type="string">contact-form</formIdentifier>
         </properties>
        </variant>
       </node>
