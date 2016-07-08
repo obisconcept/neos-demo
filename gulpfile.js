@@ -7,6 +7,8 @@ var gulp  = require('gulp'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
     autoprefixer = require('gulp-autoprefixer'),
+    watch = require('gulp-watch'),
+    notify = require('gulp-notify'),
     cleanCSS = require('gulp-clean-css');
 
 // Create build css task
