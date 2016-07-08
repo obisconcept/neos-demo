@@ -8,7 +8,8 @@
         "typo3/neos-nodetypes": "~2.2",
         "typo3/neos-seo": "~1.0",
         "flowpack/neos-frontendlogin": "~2.1",
-        "obisconcept/neos-bootstrap": "dev-master"
+        "obisconcept/neos-bootstrap": "dev-master",
+        "obisconcept/neos-bootstrap-form": "dev-master"
     },
     "autoload": {
         "psr-0": {
