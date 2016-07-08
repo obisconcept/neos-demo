@@ -1,0 +1,18 @@
+privilegeTargets:
+
+  'TYPO3\TYPO3CR\Security\Authorization\Privilege\Node\ReadNodePrivilege':
+    'ObisConcept.NeosDemo:ProtectedArea':
+      matcher: 'isDescendantNodeOf("ede7c400-76ce-42ae-bd4b-f4474ec01140")'
+
+
+roles:
+  'Flowpack.Neos.FrontendLogin:User':
+    privileges:
+      -
+        privilegeTarget: 'ObisConcept.NeosDemo:ProtectedArea'
+        permission: GRANT
+  'TYPO3.Neos:Editor':
+    privileges:
+      -
+        privilegeTarget: 'ObisConcept.NeosDemo:ProtectedArea'
+        permission: GRANT
