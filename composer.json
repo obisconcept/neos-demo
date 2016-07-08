@@ -1,7 +1,7 @@
 {
     "name": "obisconcept/neos-demo",
     "type": "typo3-flow-site",
-    "description": "Site package for Neos demo website",
+    "description": "A Neos CMS demo website package to present our packages and some other third party packages.",
     "license": "GPL-3.0+",
     "require": {
         "typo3/neos": "~2.2",
