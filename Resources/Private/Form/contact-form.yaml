@@ -1,0 +1,88 @@
+type: 'TYPO3.Form:Form'
+identifier: contact-form
+label:
+renderingOptions:
+  prevButtonLabel: '<span>Zurück</span><i class="pull-right fa fa-chevorn-left"></i>'
+  formPrevButtonClassAttribute: 'btn btn-default'
+  nextButtonLabel: '<span>Weiter</span><i class="pull-left fa fa-chevron-right"></i>'
+  formNextButtonClassAttribute: 'btn btn-default'
+  submitButtonLabel: '<span>Absenden</span><i class="pull-left fa fa-paper-plane"></i>'
+  formSubmitButtonClassAttribute: 'btn btn-default'
+  containerClassAttribute: ''
+renderables:
+  -
+    type: 'TYPO3.Form:Page'
+    identifier: page-one
+    renderables:
+      -
+        type: 'TYPO3.Form:Section'
+        identifier: 'section-one'
+        properties:
+          sectionClassAttribute: 'col-sm-12'
+        renderables:
+          -
+            type: 'TYPO3.Form:SingleLineText'
+            identifier: name
+            validators:
+              - identifier: 'TYPO3.Flow:NotEmpty'
+            properties:
+              placeholder: 'Name'
+              elementClassAttribute: 'form-control'
+              containerInnerClassAttribute: 'col-sm-12'
+            defaultValue: ''
+          -
+            type: 'TYPO3.Form:SingleLineText'
+            identifier: email
+            validators:
+              - identifier: 'TYPO3.Flow:NotEmpty'
+              - identifier: 'TYPO3.Flow:EmailAddress'
+            properties:
+              placeholder: 'E-Mail'
+              elementClassAttribute: 'form-control'
+              containerInnerClassAttribute: 'col-sm-12'
+            defaultValue: ''
+          -
+            type: 'TYPO3.Form:SingleLineText'
+            identifier: subject
+            validators:
+              - identifier: 'TYPO3.Flow:NotEmpty'
+            properties:
+              placeholder: 'Betreff'
+              elementClassAttribute: 'form-control'
+              containerInnerClassAttribute: 'col-sm-12'
+            defaultValue: ''
+          -
+            type: 'TYPO3.Form:MultiLineText'
+            identifier: message
+            validators:
+              - identifier: 'TYPO3.Flow:NotEmpty'
+            properties:
+              placeholder: 'Nachricht'
+              elementClassAttribute: 'form-control'
+              rows: 10
+              containerInnerClassAttribute: 'col-sm-12'
+            defaultValue: ''
+          -
+            type: 'ObisConcept.NeosBootstrapForm:GoogleCaptcha'
+            identifier: contact-captcha
+            label: 'Captcha'
+            properties:
+              sitekey: '6LdemCQTAAAAAOKE0KPqP0sOEMe6AderJq0zv4YJ'
+finishers:
+  -
+    identifier: 'TYPO3.Form:Email'
+    options:
+      templatePathAndFilename: 'resource://ObisConcept.NeosDemo/Private/Templates/Email/Message.html'
+      subject: '{betreff}'
+      recipientAddress: 'dev@obis-concept.de'
+      recipientName: 'obis|CONCEPT'
+      senderAddress: 'dev@obis-concept.de'
+      senderName: 'obis|CONCEPT Kontakt Formular'
+      replyToAddress: 'dev@obis-concept.de'
+      format: 'html'
+  -
+    identifier: 'TYPO3.Form:Confirmation'
+    options:
+      message: >
+        <h2>Danke für Ihre Kontaktaufnahme</h2>
+        <p><b>Wir werden Ihr Anliegen schnellstmöglich bearbeiten und uns bei Ihnen melden.</b></p>

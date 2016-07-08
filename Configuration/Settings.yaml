@@ -15,3 +15,17 @@ TYPO3:
       translation:
         autoInclude:
           'ObisConcept.NeosDemo': ['Main', 'NodeTypes/*']
+
+  Form:
+    yamlPersistenceManager:
+      savePath: 'resource://ObisConcept.NeosDemo/Private/Form/'
+    presets:
+      contact:
+        title: 'Kontakt Formular'
+        parentPreset: 'bootstrap'
+
+ObisConcept:
+  BootstrapForm:
+    googleCaptcha:
+      contact-form:
+        secretkey: '6LdemCQTAAAAAOTo43cgmmUxk4pJpYuGCkMFkl8P'

@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Kontaktformular</title>
+    <style type="text/css">
+        body{margin: 0;font-family: 'Arial, Helvetica, sans-serif';font-size:large;color:#666666;}
+        a{color:#666666;text-decoration:none;}
+        hr{border:none;border-top: 1px solid #666666;}
+        @media(max-width: 600px){td{display:block;width:100%}}
+    </style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="90%" align="center">
+    <tr>
+        <td colspan="3" align="center">
+            <p><hr noshade size="1" style="border:none;border-top: 1px solid #666666;" /></p>
+        </td>
+    </tr>
+
+    <f:for each="{form.formState.formValues}" as="value" key="label">
+        <f:if condition="{value}">
+            <f:then>
+                <f:if condition="{label} == 'name'">
+                    <f:then>
+
+                        <tr>
+                            <td width="50%" align="left" valign="top" style="text-transform:uppercase;font-family:'Arial, Helvetica, sans-serif';font-size:large;color:#666666;">
+                                <font face="Arial, Helvetica, sans-serif" size="4" color="#666666">
+                                    <p>
+                                        <strong>NAME:</strong><br/>
+                                        {value}
+                                    </p>
+                                </font>
+                            </td>
+
+                    </f:then>
+                </f:if>
+                <f:if condition="{label} == 'email'">
+                    <f:then>
+
+                        <td width="50%" align="left" valign="top" style="text-transform:uppercase;font-family:'Arial, Helvetica, sans-serif';font-size:large;color:#666666;">
+                            <font face="Arial, Helvetica, sans-serif" size="4" color="#666666">
+                                <p>
+                                    <strong>E-MAIL:</strong><br/>
+                                    {value}
+                                </p>
+                            </font>
+                        </td>
+                        </tr>
+
+                    </f:then>
+                </f:if>
+                <f:if condition="{label} == 'subject'">
+                    <f:then>
+
+                        <td colspan="2"  align="left" style="text-transform:uppercase;font-family:'Arial, Helvetica, sans-serif';font-size:large;color:#666666;">
+                            <font face="Arial, Helvetica, sans-serif" size="4" color="#666666">
+                                <p>
+                                    <strong>BETREFF:</strong><br />
+                                    {value}
+                                </p>
+                            </font>
+                            <p>&nbsp;</p>
+                        </td>
+                        </tr>
+
+                    </f:then>
+                </f:if>
+                <f:if condition="{label} == 'message'">
+                    <f:then>
+
+                        <tr>
+                            <td colspan="3" align="left" style="font-family:'Arial, Helvetica, sans-serif';font-size:large;color:#666666;">
+                                <font face="Arial, Helvetica, sans-serif" size="4" color="#666666">
+                                    <p>
+                                        <strong>NACHRICHT:</strong><br />
+                                        {value}
+                                    </p>
+                                </font>
+                            </td>
+                        </tr>
+
+                    </f:then>
+                </f:if>
+            </f:then>
+        </f:if>
+    </f:for>
+
+    <tr>
+        <td colspan="3" align="center">
+            <p><hr noshade size="1" style="border:none;border-top: 1px solid #666666;" /></p>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
