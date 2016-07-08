@@ -89,7 +89,9 @@ gulp.task('build-js', function() {
 
 // Create default task
 gulp.task('default', function() {
-
+    
+    gulp.src('Resources/Private/Assets/Fonts/*.*').pipe(gulp.dest('Resources/Public/Fonts/'));
+    
     gulp.src('Resources/Private/Assets/Styles/**/*.scss', {read: false})
         .pipe(watch('Resources/Private/Assets/Styles/**/*.scss', function() {
             gulp.start('build-css');
