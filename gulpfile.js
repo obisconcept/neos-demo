@@ -9,14 +9,26 @@ var gulp  = require('gulp'),
     autoprefixer = require('gulp-autoprefixer'),
     watch = require('gulp-watch'),
     notify = require('gulp-notify'),
+    plumber = require('gulp-plumber'),
     cleanCSS = require('gulp-clean-css');
 
 // Create build css task
 gulp.task('build-css', function() {
 
     gutil.log('Generate css files ...');
+    
+    var onError = function(err) {
+        notify.onError({
+            title:    'Gulp',
+            subtitle: 'Failure!',
+            message:  'Error: <%= error.message %>',
+            sound:    'Beep'
+        })(err);
+        this.emit('end');
+    };
 
     gulp.src('Resources/Private/Assets/Styles/main.scss')
+        .pipe(plumber({errorHandler: onError}))
         .pipe(sourcemaps.init())
         .pipe(sass())
         .pipe(gulp.dest('Resources/Public/Styles'))
@@ -30,6 +42,7 @@ gulp.task('build-css', function() {
         .pipe(gulp.dest('Resources/Public/Styles'));
 
     gulp.src('Resources/Private/Assets/Styles/main-backend-half.scss')
+        .pipe(plumber({errorHandler: onError}))
         .pipe(sourcemaps.init())
         .pipe(sass())
         .pipe(gulp.dest('Resources/Public/Styles'))
@@ -43,6 +56,7 @@ gulp.task('build-css', function() {
         .pipe(gulp.dest('Resources/Public/Styles'));
 
     gulp.src('Resources/Private/Assets/Styles/main-backend-full.scss')
+        .pipe(plumber({errorHandler: onError}))
         .pipe(sourcemaps.init())
         .pipe(sass())
         .pipe(gulp.dest('Resources/Public/Styles'))
@@ -53,7 +67,11 @@ gulp.task('build-css', function() {
             cascade: false
         }))
         .pipe(sourcemaps.write())
-        .pipe(gulp.dest('Resources/Public/Styles'));
+        .pipe(gulp.dest('Resources/Public/Styles'))
+        .pipe(notify({
+            'title': 'Gulp',
+            'message': 'CSS files were generated'
+        }));
 
 });
 
@@ -61,12 +79,23 @@ gulp.task('build-css', function() {
 gulp.task('build-js', function() {
 
     gutil.log('Generate js files ...');
-
+    
+    var onError = function(err) {
+        notify.onError({
+            title:    'Gulp',
+            subtitle: 'Failure!',
+            message:  'Error: <%= error.message %>',
+            sound:    'Beep'
+        })(err);
+        this.emit('end');
+    };
+    
     // Website js files
     gulp.src([
             'Resources/Private/Assets/JavaScript/**',
             '!' + 'Resources/Private/Assets/JavaScript/backend.js'
         ])
+        .pipe(plumber({errorHandler: onError}))
         .pipe(sourcemaps.init())
         .pipe(concat('main.js'))
         .pipe(gulp.dest('Resources/Public/JavaScript'))
@@ -79,6 +108,7 @@ gulp.task('build-js', function() {
     gulp.src([
             'Resources/Private/Assets/JavaScript/backend.js'
         ])
+        .pipe(plumber({errorHandler: onError}))
         .pipe(sourcemaps.init())
         .pipe(concat('backend.js'))
         .pipe(gulp.dest('Resources/Public/JavaScript'))
@@ -97,10 +127,6 @@ gulp.task('default', function() {
     gulp.src('Resources/Private/Assets/Styles/**/*.scss', {read: false})
         .pipe(watch('Resources/Private/Assets/Styles/**/*.scss', function() {
             gulp.start('build-css');
-        }))
-        .pipe(notify({
-            'title': 'Neos Demo Website Package',
-            'message': 'CSS files were generated'
         }));
 
     gulp.src('Resources/Private/Assets/JavaScript/**/*.js', {read: false})
@@ -108,7 +134,7 @@ gulp.task('default', function() {
             gulp.start('build-js');
         }))
         .pipe(notify({
-            'title': 'Neos Demo Website Package',
+            'title': 'Gulp',
             'message': 'JavaScript files were generated'
         }));
 
