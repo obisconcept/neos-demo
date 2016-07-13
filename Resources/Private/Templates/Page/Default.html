@@ -4,12 +4,27 @@
 </head>
 <body>
 <f:section name="body">
-    <nav class="menu">
-        {parts.menu -> f:format.raw()}
-    </nav>
-    <div class="content">
+
+    <header>
+
+        <f:render partial="Header" arguments="{_all}" />
+
+    </header>
+
+    <div class="container">
+            
+        {parts.breadcrumb -> f:format.raw()}
+    
         {content.main -> f:format.raw()}
+        
     </div>
+    
+    <footer>
+        
+        <f:render partial="Footer" arguments="{_all}" />
+        
+    </footer>
+    
 </f:section>
 </body>
 </html>

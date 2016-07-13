@@ -23,7 +23,15 @@ page = Page {
         sectionName = 'body'
 
         parts {
-            menu = Menu
+            home = ${site}
+            
+            title = ${q(site).property('titleOverride')}
+            
+            menu = ObisConcept.NeosDemo:MainMenu
+            
+            breadcrumb = ObisConcept.NeosDemo:BreadcrumbMenu
+            
+            footerMenu = ObisConcept.NeosDemo:FooterMenu
         }
 
         content {

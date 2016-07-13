@@ -1,3 +1,51 @@
-body {
-  margin: 0px;
-  padding: 0px; }
+html {
+  position: relative;
+  min-height: 100%; }
+  html body {
+    margin: 0 0 80px;
+    padding: 0; }
+    html body table {
+      background-color: transparent; }
+    html body caption {
+      padding-top: 8px;
+      padding-bottom: 8px;
+      color: #777;
+      text-align: left; }
+    html body th {
+      text-align: left; }
+    html body table {
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 20px; }
+      html body table > thead > tr > th,
+      html body table > thead > tr > td,
+      html body table > tbody > tr > th,
+      html body table > tbody > tr > td,
+      html body table > tfoot > tr > th,
+      html body table > tfoot > tr > td {
+        padding: 8px;
+        line-height: 1.428571429;
+        vertical-align: top;
+        border-top: 1px solid #ddd; }
+      html body table > thead > tr > th {
+        vertical-align: bottom;
+        border-bottom: 2px solid #ddd; }
+      html body table > caption + thead > tr:first-child > th,
+      html body table > caption + thead > tr:first-child > td,
+      html body table > colgroup + thead > tr:first-child > th,
+      html body table > colgroup + thead > tr:first-child > td,
+      html body table > thead:first-child > tr:first-child > th,
+      html body table > thead:first-child > tr:first-child > td {
+        border-top: 0; }
+      html body table > tbody + tbody {
+        border-top: 2px solid #ddd; }
+      html body table table {
+        background-color: transparent; }
+    html body footer {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 60px;
+      padding-top: 10px;
+      background-color: #eee; }

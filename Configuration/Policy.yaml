@@ -2,7 +2,7 @@ privilegeTargets:
 
   'TYPO3\TYPO3CR\Security\Authorization\Privilege\Node\ReadNodePrivilege':
     'ObisConcept.NeosDemo:ProtectedArea':
-      matcher: 'isDescendantNodeOf("ede7c400-76ce-42ae-bd4b-f4474ec01140")'
+      matcher: 'isDescendantNodeOf("6cc5fac6-3cae-46ce-82a8-0f496db63c43")'
 
 
 roles:

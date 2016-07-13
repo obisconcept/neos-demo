@@ -1,0 +1,7 @@
+prototype(ObisConcept.NeosDemo:MainMenu) < prototype(TYPO3.Neos:Menu) {
+
+    maximumLevels = 2
+
+    templatePath = 'resource://ObisConcept.NeosDemo/Private/Templates/ProtoTypes/MainMenu.html'
+
+}

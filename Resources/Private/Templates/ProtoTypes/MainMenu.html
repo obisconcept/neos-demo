@@ -1,0 +1,49 @@
+{namespace neos=TYPO3\Neos\ViewHelpers}
+
+<ul class="nav navbar-nav navbar-right">
+    
+    <f:for each="{items}" as="item">
+    
+        <li class="<f:if condition="{item.state} == 'current'">active</f:if><f:if condition="{item.state} == 'active'">active</f:if><f:if condition="{item.subItems}"> dropdown</f:if>">
+        
+            <f:if condition="{item.subItems}">
+            
+                <f:then>
+                
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" title="{item.label}" aria-expanded="false">{item.label} <span class="caret"></span></a>
+                    
+                    <f:render section="subList" arguments="{items: item.subItems}" />
+                    
+                </f:then>
+                
+                <f:else>
+                
+                    <neos:link.node node="{item.node}" title="{item.label}">{item.label}</neos:link.node>
+                    
+                </f:else>
+                
+            </f:if>
+            
+        </li>
+        
+    </f:for>
+    
+</ul>
+
+<f:section name="subList">
+
+    <ul class="dropdown-menu" role="menu">
+        
+        <f:for each="{items}" as="item">
+        
+            <li<f:if condition="{item.state} == 'current'"> class="active"</f:if>>
+            
+                <neos:link.node node="{item.node}" title="{item.label}">{item.label}</neos:link.node>
+                
+            </li>
+            
+        </f:for>
+        
+    </ul>
+    
+</f:section>
