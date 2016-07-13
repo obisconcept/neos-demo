@@ -3,17 +3,18 @@
  <site name="www.example.com" state="1" siteResourcesPackageKey="ObisConcept.NeosDemo" siteNodeName="neosdemo">
   <nodes formatVersion="2.0">
    <node identifier="4a336291-cd98-edf2-2fe1-8931ba3f7a7e" nodeName="neosdemo">
-    <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
+    <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="5" removed="" hidden="" hiddenInIndex="">
      <dimensions>
       <language>de</language>
      </dimensions>
      <accessRoles __type="array"/>
      <creationDateTime __type="object" __classname="DateTime">2015-11-18T16:00:46+00:00</creationDateTime>
-     <lastModificationDateTime __type="object" __classname="DateTime">2016-07-08T11:21:20+00:00</lastModificationDateTime>
-     <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-08T11:21:20+00:00</lastPublicationDateTime>
+     <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T08:08:38+00:00</lastModificationDateTime>
+     <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T08:08:38+00:00</lastPublicationDateTime>
      <properties>
-      <title __type="string">Startseite</title>
-      <uriPathSegment __type="string">startseite</uriPathSegment>
+      <title __type="string">Home</title>
+      <uriPathSegment __type="string">home</uriPathSegment>
+      <titleOverride __type="string">Neos Demo</titleOverride>
      </properties>
     </variant>
     <node identifier="9ae45450-4d71-deab-9dc1-a106b96e894f" nodeName="main">
@@ -40,158 +41,847 @@
       </variant>
      </node>
     </node>
-    <node identifier="ede7c400-76ce-42ae-bd4b-f4474ec01140" nodeName="node-577f8823c9618">
-     <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="2" removed="" hidden="" hiddenInIndex="">
+    <node identifier="b9447906-744d-4e48-97c6-6b9c93e51f35" nodeName="node-57850489ab084">
+     <variant sortingIndex="175" workspace="live" nodeType="TYPO3.Neos:Shortcut" version="4" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>de</language>
       </dimensions>
       <accessRoles __type="array"/>
-      <creationDateTime __type="object" __classname="DateTime">2016-07-08T11:01:55+00:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2016-07-08T11:02:09+00:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-08T11:02:09+00:00</lastPublicationDateTime>
+      <creationDateTime __type="object" __classname="DateTime">2016-07-12T14:54:01+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2016-07-12T14:54:17+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-12T14:54:16+00:00</lastPublicationDateTime>
       <properties>
-       <uriPathSegment __type="string">geschuetzter-bereich</uriPathSegment>
-       <canonicalLink __type="string"></canonicalLink>
-       <title __type="string">Geschützter Bereich</title>
+       <uriPathSegment __type="string">home</uriPathSegment>
+       <targetMode __type="string">parentNode</targetMode>
+       <title __type="string">Home</title>
       </properties>
      </variant>
-     <node identifier="95231767-fc58-6fbc-9a05-9df6f34a7ed5" nodeName="main">
+    </node>
+    <node identifier="882365bf-3914-4f1f-bbb5-cfde54c3bac9" nodeName="node-5785e43d2f588">
+     <variant sortingIndex="188" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="4" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2016-07-13T06:48:29+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T08:00:25+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T08:00:25+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">texts-images</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Texts &amp; images</title>
+      </properties>
+     </variant>
+     <node identifier="516e6caa-e4bc-f2ae-1888-5c1c2b494092" nodeName="main">
       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>de</language>
        </dimensions>
        <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2016-07-08T11:01:55+00:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2016-07-08T11:02:09+00:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-08T11:02:09+00:00</lastPublicationDateTime>
+       <creationDateTime __type="object" __classname="DateTime">2016-07-13T06:48:29+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T06:49:00+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T06:49:00+00:00</lastPublicationDateTime>
        <properties/>
       </variant>
-      <node identifier="d4148c76-848e-4fd0-9dfc-6a2daa14535a" nodeName="node-577f89493447a">
-       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="6" removed="" hidden="" hiddenInIndex="">
+      <node identifier="3157b49d-71aa-4730-9055-16c774b97617" nodeName="node-5785ed26eee91">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:TwoColumn" version="2" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>de</language>
         </dimensions>
         <accessRoles __type="array"/>
-        <creationDateTime __type="object" __classname="DateTime">2016-07-08T11:06:49+00:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2016-07-08T11:07:03+00:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-08T11:07:03+00:00</lastPublicationDateTime>
+        <creationDateTime __type="object" __classname="DateTime">2016-07-13T07:26:30+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T07:32:28+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T07:32:28+00:00</lastPublicationDateTime>
         <properties>
-         <text __type="string">&lt;p&gt;Dies ist ein geschützter Bereich!&lt;/p&gt;</text>
+         <layout __type="string">6-6</layout>
+        </properties>
+       </variant>
+       <node identifier="89ba9011-eccf-eb15-e54b-3a98da88133b" nodeName="column0">
+        <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2016-07-13T07:26:31+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T07:32:28+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T07:32:28+00:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+        <node identifier="859fdc19-1711-4602-8713-4c7d7a223bdd" nodeName="node-5785ed3c03b68">
+         <variant sortingIndex="150" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="36" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>de</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-07-13T07:26:52+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T10:40:02+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T10:40:02+00:00</lastPublicationDateTime>
+          <properties>
+           <text __type="string">&lt;h1&gt;Headline 1&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.&lt;br/&gt;&lt;/p&gt;&lt;h2&gt;Headline 2&lt;/h2&gt;&lt;p&gt;Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;br/&gt;&lt;/p&gt;&lt;h3&gt;Headline 3&lt;/h3&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;&lt;h3&gt;Headline 3&lt;/h3&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;br/&gt;&lt;/p&gt;</text>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="b4b6057e-a296-4b63-a402-7c95ed1791b4" nodeName="node-5786184ed8e4f">
+         <variant sortingIndex="200" workspace="live" nodeType="ObisConcept.NeosBootstrap:Tabs" version="3" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>de</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-07-13T10:30:38+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T10:35:00+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T10:35:00+00:00</lastPublicationDateTime>
+          <properties>
+           <tabsStyle __type="string">horizontal</tabsStyle>
+          </properties>
+         </variant>
+         <node identifier="d2e65778-f7ca-98f6-0223-5c022b1c92fa" nodeName="tabcollection">
+          <variant sortingIndex="100" workspace="live" nodeType="ObisConcept.NeosBootstrap:TabCollection" version="2" removed="" hidden="" hiddenInIndex="">
+           <dimensions>
+            <language>de</language>
+           </dimensions>
+           <accessRoles __type="array"/>
+           <creationDateTime __type="object" __classname="DateTime">2016-07-13T10:30:38+00:00</creationDateTime>
+           <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T10:35:00+00:00</lastModificationDateTime>
+           <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T10:35:00+00:00</lastPublicationDateTime>
+           <properties/>
+          </variant>
+          <node identifier="4db4e635-37cc-4083-a137-09d45d8e4ff0" nodeName="node-5786185b6a568">
+           <variant sortingIndex="150" workspace="live" nodeType="ObisConcept.NeosBootstrap:Tab" version="4" removed="" hidden="" hiddenInIndex="">
+            <dimensions>
+             <language>de</language>
+            </dimensions>
+            <accessRoles __type="array"/>
+            <creationDateTime __type="object" __classname="DateTime">2016-07-13T10:30:51+00:00</creationDateTime>
+            <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T10:35:00+00:00</lastModificationDateTime>
+            <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T10:35:00+00:00</lastPublicationDateTime>
+            <properties>
+             <title __type="string">Tab 2</title>
+            </properties>
+           </variant>
+           <node identifier="98cf2181-8b76-cf0e-cbe5-65149090f958" nodeName="contentcollection">
+            <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+             <dimensions>
+              <language>de</language>
+             </dimensions>
+             <accessRoles __type="array"/>
+             <creationDateTime __type="object" __classname="DateTime">2016-07-13T10:30:51+00:00</creationDateTime>
+             <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T10:35:00+00:00</lastModificationDateTime>
+             <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T10:35:00+00:00</lastPublicationDateTime>
+             <properties/>
+            </variant>
+            <node identifier="ee19b842-5248-4216-98af-a148be867cf4" nodeName="node-5786193656688">
+             <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
+              <dimensions>
+               <language>de</language>
+              </dimensions>
+              <accessRoles __type="array"/>
+              <creationDateTime __type="object" __classname="DateTime">2016-07-13T10:34:30+00:00</creationDateTime>
+              <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T10:35:00+00:00</lastModificationDateTime>
+              <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T10:35:00+00:00</lastPublicationDateTime>
+              <properties>
+               <text __type="string">&lt;p&gt;At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.&lt;/p&gt;</text>
+              </properties>
+             </variant>
+            </node>
+           </node>
+          </node>
+          <node identifier="dc5a5388-fa12-41d8-842a-6d8bf8d91b53" nodeName="node-5786188c4e58f">
+           <variant sortingIndex="200" workspace="live" nodeType="ObisConcept.NeosBootstrap:Tab" version="4" removed="" hidden="" hiddenInIndex="">
+            <dimensions>
+             <language>de</language>
+            </dimensions>
+            <accessRoles __type="array"/>
+            <creationDateTime __type="object" __classname="DateTime">2016-07-13T10:31:40+00:00</creationDateTime>
+            <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T10:35:00+00:00</lastModificationDateTime>
+            <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T10:35:00+00:00</lastPublicationDateTime>
+            <properties>
+             <title __type="string">Tab 3</title>
+            </properties>
+           </variant>
+           <node identifier="fd266ac3-1bfd-bfca-8149-98495e2b01aa" nodeName="contentcollection">
+            <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+             <dimensions>
+              <language>de</language>
+             </dimensions>
+             <accessRoles __type="array"/>
+             <creationDateTime __type="object" __classname="DateTime">2016-07-13T10:31:40+00:00</creationDateTime>
+             <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T10:35:00+00:00</lastModificationDateTime>
+             <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T10:35:00+00:00</lastPublicationDateTime>
+             <properties/>
+            </variant>
+            <node identifier="bdb76432-6667-4347-996d-ed559529a71d" nodeName="node-5786194d032f6">
+             <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="3" removed="" hidden="" hiddenInIndex="">
+              <dimensions>
+               <language>de</language>
+              </dimensions>
+              <accessRoles __type="array"/>
+              <creationDateTime __type="object" __classname="DateTime">2016-07-13T10:34:53+00:00</creationDateTime>
+              <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T10:35:00+00:00</lastModificationDateTime>
+              <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T10:35:00+00:00</lastPublicationDateTime>
+              <properties>
+               <text __type="string">&lt;p&gt;Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus.&lt;/p&gt;</text>
+              </properties>
+             </variant>
+            </node>
+           </node>
+          </node>
+          <node identifier="f1b1d501-ec76-8af0-72ac-e0af5b3bba11" nodeName="tabone">
+           <variant sortingIndex="100" workspace="live" nodeType="ObisConcept.NeosBootstrap:Tab" version="3" removed="" hidden="" hiddenInIndex="">
+            <dimensions>
+             <language>de</language>
+            </dimensions>
+            <accessRoles __type="array"/>
+            <creationDateTime __type="object" __classname="DateTime">2016-07-13T10:30:38+00:00</creationDateTime>
+            <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T10:35:00+00:00</lastModificationDateTime>
+            <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T10:35:00+00:00</lastPublicationDateTime>
+            <properties>
+             <title __type="string">Tab 1</title>
+            </properties>
+           </variant>
+           <node identifier="8c472864-6a57-e2d0-c7ed-41cfd99a4dfc" nodeName="contentcollection">
+            <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+             <dimensions>
+              <language>de</language>
+             </dimensions>
+             <accessRoles __type="array"/>
+             <creationDateTime __type="object" __classname="DateTime">2016-07-13T10:30:38+00:00</creationDateTime>
+             <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T10:35:00+00:00</lastModificationDateTime>
+             <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T10:35:00+00:00</lastPublicationDateTime>
+             <properties/>
+            </variant>
+            <node identifier="5a02abc9-c3da-4571-a7a8-59632aa098d0" nodeName="node-578655d08f00d">
+             <variant sortingIndex="300" workspace="live" nodeType="TYPO3.Neos.NodeTypes:TextWithImage" version="4" removed="" hidden="" hiddenInIndex="">
+              <dimensions>
+               <language>de</language>
+              </dimensions>
+              <accessRoles __type="array"/>
+              <creationDateTime __type="object" __classname="DateTime">2016-07-13T14:53:04+00:00</creationDateTime>
+              <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T14:53:28+00:00</lastModificationDateTime>
+              <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T14:53:28+00:00</lastPublicationDateTime>
+              <properties>
+               <text __type="string">&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;</text>
+               <caption __type="string"></caption>
+               <alignment __type="string">right</alignment>
+               <image __type="object" __identifier="542008bd-8a6b-4a94-a310-8f5d08c2b3f0" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;542008bd-8a6b-4a94-a310-8f5d08c2b3f0&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;200x150.png&quot;,&quot;hash&quot;:&quot;393bc2dc5a9b2e49e821ea791e4cb93c851dce51&quot;,&quot;__identity&quot;:&quot;cc19ab89-e32d-4fa1-9e59-cf385ded952d&quot;}}</image>
+              </properties>
+             </variant>
+            </node>
+           </node>
+          </node>
+         </node>
+        </node>
+        <node identifier="454f6a67-ab22-41af-bf84-4cb8429761e5" nodeName="node-5786186b8fb42">
+         <variant sortingIndex="175" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>de</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-07-13T10:31:07+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T10:35:00+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T10:35:00+00:00</lastPublicationDateTime>
+          <properties>
+           <title __type="string">&lt;h1&gt;Tabs&lt;/h1&gt;</title>
+          </properties>
+         </variant>
+        </node>
+       </node>
+       <node identifier="d74b4520-1061-bce4-6076-5cd6d686f148" nodeName="column1">
+        <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2016-07-13T07:26:31+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T07:32:28+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T07:32:28+00:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+        <node identifier="05398609-ebb7-45a5-b3fa-26cc650b8abf" nodeName="node-5785ee1f07733">
+         <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="5" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>de</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-07-13T07:30:39+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T07:39:32+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T07:39:32+00:00</lastPublicationDateTime>
+          <properties>
+           <title __type="string">&lt;h1&gt;Image&lt;/h1&gt;</title>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="c23e2d31-7541-4c9f-99ec-5c0a7e6eb07c" nodeName="node-5785ef27a0dcb">
+         <variant sortingIndex="300" workspace="live" nodeType="ObisConcept.NeosBootstrap:Table" version="18" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>de</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-07-13T07:35:03+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T10:14:44+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T10:14:44+00:00</lastPublicationDateTime>
+          <properties>
+           <text __type="string">&lt;table&gt;&lt;caption&gt;Table caption&lt;/caption&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th scope=&quot;col&quot;&gt;Table header 1&lt;/th&gt;&lt;th scope=&quot;col&quot;&gt;Table header 2&lt;/th&gt;&lt;th scope=&quot;col&quot;&gt;Table header 3 &lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Lorem ipsum dolor sit amet&lt;/td&gt;&lt;td&gt;Consetetur sadipscing elitr&lt;/td&gt;&lt;td&gt;Sed diam nonumy eirmod tempor&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Invidunt ut labore et dolore magna&lt;/td&gt;&lt;td&gt;Aliquyam erat, sed diam voluptua &lt;/td&gt;&lt;td&gt;At vero eos et accusam et justo duo &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</text>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="4bb2ddc1-e58a-4e12-95d9-a1937c1c1e1a" nodeName="node-5785ef3275d57">
+         <variant sortingIndex="275" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>de</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-07-13T07:35:14+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T07:39:32+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T07:39:32+00:00</lastPublicationDateTime>
+          <properties>
+           <title __type="string">&lt;h1&gt;Table&lt;/h1&gt;</title>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="56d0c180-ff24-4166-bcea-15b183653ac9" nodeName="node-578619fa50062">
+         <variant sortingIndex="325" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="5" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>de</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-07-13T10:37:46+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T10:39:29+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T10:39:29+00:00</lastPublicationDateTime>
+          <properties>
+           <title __type="string">&lt;h1&gt;Asset list&lt;/h1&gt;</title>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="a6e50358-1bae-4db9-9167-e08ddd3ff0cc" nodeName="node-578656a12529d">
+         <variant sortingIndex="238" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Image" version="5" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>de</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-07-13T14:56:33+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T14:57:13+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T14:57:13+00:00</lastPublicationDateTime>
+          <properties>
+           <caption __type="string">&lt;p&gt;Image caption&lt;/p&gt;</caption>
+           <alignment __type="string">center</alignment>
+           <image __type="object" __identifier="dd2a1a82-afde-4f13-9d79-9b1cd50d6d61" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;dd2a1a82-afde-4f13-9d79-9b1cd50d6d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;600x400.png&quot;,&quot;hash&quot;:&quot;f8f7bc99446ee6090be7fdd4641e5e0c77be6447&quot;,&quot;__identity&quot;:&quot;3fc3b99a-697c-457e-8581-22eff3ce97d4&quot;}}</image>
+           <hasCaption __type="boolean">1</hasCaption>
+          </properties>
+         </variant>
+        </node>
+        <node identifier="959bd1c7-2250-4b83-84ad-6e2965fe51e2" nodeName="node-578656cd4f69a">
+         <variant sortingIndex="375" workspace="live" nodeType="TYPO3.Neos.NodeTypes:AssetList" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>de</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-07-13T14:57:17+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T14:57:31+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T14:57:31+00:00</lastPublicationDateTime>
+          <properties>
+           <assets __type="array">
+            <entry0 __type="object" __identifier="f916f7d3-e992-4e0e-8976-338942e18d0f" __classname="TYPO3\Media\Domain\Model\Document" __encoding="json">{&quot;__identity&quot;:&quot;f916f7d3-e992-4e0e-8976-338942e18d0f&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;file.pdf&quot;,&quot;hash&quot;:&quot;3f879156c288ee65fb2fd42c55e71a5d9642f0c2&quot;,&quot;__identity&quot;:&quot;c4d8d814-bbc3-471f-a226-8d7e7403a01e&quot;}}</entry0>
+           </assets>
+          </properties>
+         </variant>
+        </node>
+       </node>
+      </node>
+     </node>
+    </node>
+    <node identifier="fa2ec327-215e-4e6a-991a-b26769133de7" nodeName="node-5785fa4ec1643">
+     <variant sortingIndex="213" workspace="live" nodeType="TYPO3.Neos:Shortcut" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2016-07-13T08:22:38+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T08:23:05+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T08:23:05+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">forms</uriPathSegment>
+       <targetMode __type="string">firstChildNode</targetMode>
+       <title __type="string">Forms</title>
+      </properties>
+     </variant>
+     <node identifier="76ef0c0b-7f9b-41c7-b3da-5c2b9e074c72" nodeName="node-5785f47148a72">
+      <variant sortingIndex="338" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="5" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2016-07-13T07:57:37+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T08:23:05+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T08:23:05+00:00</lastPublicationDateTime>
+       <properties>
+        <uriPathSegment __type="string">simple-contact-form</uriPathSegment>
+        <canonicalLink __type="string"></canonicalLink>
+        <title __type="string">Simple contact form</title>
+       </properties>
+      </variant>
+      <node identifier="9bc7021b-ed98-ffe7-6448-8181e8f1f9c1" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2016-07-13T07:57:37+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T08:23:05+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T08:23:05+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="88d2534e-48ab-48eb-a027-779c565537c4" nodeName="node-5785f4bf2d4b7">
+        <variant sortingIndex="150" workspace="live" nodeType="TYPO3.Neos.NodeTypes:TwoColumn" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2016-07-13T07:58:55+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T08:23:05+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T08:23:05+00:00</lastPublicationDateTime>
+         <properties>
+          <layout __type="string">6-6</layout>
+         </properties>
+        </variant>
+        <node identifier="892aab62-d1da-b0e3-cfcf-5beb29ceb6e9" nodeName="column0">
+         <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>de</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-07-13T07:58:55+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T08:23:05+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T08:23:05+00:00</lastPublicationDateTime>
+          <properties/>
+         </variant>
+         <node identifier="c8e7b30e-cc06-4455-920e-7a039178a010" nodeName="node-5785f4ce17d51">
+          <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="13" removed="" hidden="" hiddenInIndex="">
+           <dimensions>
+            <language>de</language>
+           </dimensions>
+           <accessRoles __type="array"/>
+           <creationDateTime __type="object" __classname="DateTime">2016-07-13T07:59:10+00:00</creationDateTime>
+           <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T09:22:59+00:00</lastModificationDateTime>
+           <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T09:22:59+00:00</lastPublicationDateTime>
+           <properties>
+            <text __type="string">&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;&lt;p&gt;Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet.&lt;br/&gt;&lt;/p&gt;</text>
+           </properties>
+          </variant>
+         </node>
+        </node>
+        <node identifier="0868ac44-d1f4-4889-7e94-a438328ccde8" nodeName="column1">
+         <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>de</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-07-13T07:58:55+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T08:23:05+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T08:23:05+00:00</lastPublicationDateTime>
+          <properties/>
+         </variant>
+         <node identifier="ee77217b-16f9-400a-b3dd-24ef77f5d9d3" nodeName="node-5785f47793b48">
+          <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Form" version="4" removed="" hidden="" hiddenInIndex="">
+           <dimensions>
+            <language>de</language>
+           </dimensions>
+           <accessRoles __type="array"/>
+           <creationDateTime __type="object" __classname="DateTime">2016-07-13T07:59:00+00:00</creationDateTime>
+           <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T08:23:05+00:00</lastModificationDateTime>
+           <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T08:23:05+00:00</lastPublicationDateTime>
+           <properties>
+            <formIdentifier __type="string">contact-form</formIdentifier>
+           </properties>
+          </variant>
+         </node>
+        </node>
+       </node>
+       <node identifier="2293f39f-0e52-4084-8b4a-883fd3c406e1" nodeName="node-5785f54b3f137">
+        <variant sortingIndex="75" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="5" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2016-07-13T08:01:15+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T08:23:05+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T08:23:05+00:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Simple contact form&lt;br/&gt;&lt;/h1&gt;</title>
+         </properties>
+        </variant>
+       </node>
+      </node>
+     </node>
+     <node identifier="8c3a012f-7009-4f01-8d9c-2cd3d58b25b7" nodeName="node-5785fb3a84c46">
+      <variant sortingIndex="438" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2016-07-13T08:26:34+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T08:27:39+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T08:27:39+00:00</lastPublicationDateTime>
+       <properties>
+        <uriPathSegment __type="string">ajax-contact-form</uriPathSegment>
+        <canonicalLink __type="string"></canonicalLink>
+        <title __type="string">AJAX contact form</title>
+       </properties>
+      </variant>
+      <node identifier="34996282-8037-43fd-9ee8-0733bc812107" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2016-07-13T08:26:34+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T08:27:39+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T08:27:39+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="8b537323-dedf-42c0-9c83-2bb95dc40981" nodeName="node-5785f4bf2d4b7">
+        <variant sortingIndex="150" workspace="live" nodeType="TYPO3.Neos.NodeTypes:TwoColumn" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2016-07-13T08:26:34+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T08:27:39+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T08:27:39+00:00</lastPublicationDateTime>
+         <properties>
+          <layout __type="string">6-6</layout>
+         </properties>
+        </variant>
+        <node identifier="dedb256e-ac02-499c-9827-888f8a713ae4" nodeName="column0">
+         <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>de</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-07-13T08:26:34+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T08:27:39+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T08:27:39+00:00</lastPublicationDateTime>
+          <properties/>
+         </variant>
+         <node identifier="e7fc9dd7-b2d0-433f-8a56-9298f4d9fee6" nodeName="node-5785f4ce17d51">
+          <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="3" removed="" hidden="" hiddenInIndex="">
+           <dimensions>
+            <language>de</language>
+           </dimensions>
+           <accessRoles __type="array"/>
+           <creationDateTime __type="object" __classname="DateTime">2016-07-13T08:26:34+00:00</creationDateTime>
+           <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T09:22:59+00:00</lastModificationDateTime>
+           <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T09:22:59+00:00</lastPublicationDateTime>
+           <properties>
+            <text __type="string">&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;&lt;p&gt;Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet.&lt;br/&gt;&lt;/p&gt;</text>
+           </properties>
+          </variant>
+         </node>
+        </node>
+        <node identifier="8a23007d-1b2a-4a50-984a-a07c06ec5eac" nodeName="column1">
+         <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>de</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-07-13T08:26:34+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T08:27:39+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T08:27:39+00:00</lastPublicationDateTime>
+          <properties/>
+         </variant>
+        </node>
+       </node>
+       <node identifier="e2b79668-999a-4b5d-b4fa-278502ed73f3" nodeName="node-5785f54b3f137">
+        <variant sortingIndex="75" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2016-07-13T08:26:34+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T08:27:39+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T08:27:39+00:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;AJAX contact form&lt;br/&gt;&lt;/h1&gt;</title>
+         </properties>
+        </variant>
+       </node>
+      </node>
+     </node>
+    </node>
+    <node identifier="bbe06bf6-25a3-4668-a011-35ddd577905d" nodeName="node-57860b3dd193c">
+     <variant sortingIndex="313" workspace="live" nodeType="TYPO3.Neos:Shortcut" version="3" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2016-07-13T09:34:53+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T09:38:31+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T09:38:31+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">footer-menu</uriPathSegment>
+       <targetMode __type="string">firstChildNode</targetMode>
+       <title __type="string">Footer menu</title>
+      </properties>
+     </variant>
+     <node identifier="3a60837e-7f74-4b6f-a48f-3108e71c5037" nodeName="node-57860b926f671">
+      <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:Shortcut" version="3" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2016-07-13T09:36:18+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T09:38:31+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T09:38:31+00:00</lastPublicationDateTime>
+       <properties>
+        <uriPathSegment __type="string">imprint</uriPathSegment>
+        <targetMode __type="string">selectedTarget</targetMode>
+        <title __type="string">Imprint</title>
+        <target __type="string">node://e353a72e-d344-4ab8-9092-d1bd88c96cdc</target>
+       </properties>
+      </variant>
+     </node>
+    </node>
+    <node identifier="e353a72e-d344-4ab8-9092-d1bd88c96cdc" nodeName="node-57860b6a15b3a">
+     <variant sortingIndex="263" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="4" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2016-07-13T09:35:38+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T09:38:31+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T09:38:31+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">imprint</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Imprint</title>
+      </properties>
+     </variant>
+     <node identifier="f4b1e082-e46a-ea29-a52b-fe0fd05909c6" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2016-07-13T09:35:38+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T09:38:31+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T09:38:31+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="4848256b-3579-432c-9ae7-f8a2dc5a1f77" nodeName="node-5786119e8ac09">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:TwoColumn" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2016-07-13T10:02:06+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T10:03:07+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T10:03:07+00:00</lastPublicationDateTime>
+        <properties>
+         <layout __type="string">6-6</layout>
+        </properties>
+       </variant>
+       <node identifier="a573f7e1-558c-52e6-87c5-ebd90cff892b" nodeName="column0">
+        <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2016-07-13T10:02:06+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T10:03:07+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T10:03:07+00:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+       </node>
+       <node identifier="31ec717a-b0db-14e4-1865-6a5e098ab288" nodeName="column1">
+        <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2016-07-13T10:02:06+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T10:03:07+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T10:03:07+00:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+        <node identifier="94c8dc3e-cd06-4c30-8a8e-d2b7e85e54ad" nodeName="node-578611b4b6370">
+         <variant sortingIndex="300" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Html" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>de</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-07-13T10:03:05+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T10:03:19+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T10:03:19+00:00</lastPublicationDateTime>
+          <properties>
+           <source __type="string">&lt;script src=&quot;http://www.obis-concept.de/obis-impressum.js&quot; type=&quot;application/javascript&quot;&gt;&lt;/script&gt;</source>
+          </properties>
+         </variant>
+        </node>
+       </node>
+      </node>
+      <node identifier="3adf328d-7be7-4781-b1e3-f513be82f419" nodeName="node-578611cf4aa72">
+       <variant sortingIndex="50" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="5" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2016-07-13T10:02:55+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T10:03:07+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T10:03:07+00:00</lastPublicationDateTime>
+        <properties>
+         <title __type="string">&lt;h1&gt;Imprint&lt;/h1&gt;</title>
         </properties>
        </variant>
       </node>
      </node>
     </node>
-    <node identifier="c9fb4e02-e23f-446e-a6cf-1b0339886992" nodeName="node-577f88b575f54">
-     <variant sortingIndex="300" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="2" removed="" hidden="" hiddenInIndex="">
+    <node identifier="733b24be-f804-4277-afae-a44d455205f3" nodeName="node-578620685bfd2">
+     <variant sortingIndex="238" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>de</language>
       </dimensions>
       <accessRoles __type="array"/>
-      <creationDateTime __type="object" __classname="DateTime">2016-07-08T11:04:21+00:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2016-07-08T11:04:28+00:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-08T11:04:28+00:00</lastPublicationDateTime>
+      <creationDateTime __type="object" __classname="DateTime">2016-07-13T11:05:12+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T11:05:52+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T11:05:52+00:00</lastPublicationDateTime>
       <properties>
-       <uriPathSegment __type="string">produkte</uriPathSegment>
+       <uriPathSegment __type="string">frontend-login</uriPathSegment>
        <canonicalLink __type="string"></canonicalLink>
-       <title __type="string">Produkte</title>
+       <title __type="string">Frontend login</title>
       </properties>
      </variant>
-     <node identifier="e42d32c4-f401-6b55-c1f8-f905d6ecd779" nodeName="main">
+     <node identifier="e45113c3-27fe-15d4-f810-757a23cc3f9b" nodeName="main">
       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>de</language>
        </dimensions>
        <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2016-07-08T11:04:21+00:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2016-07-08T11:04:28+00:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-08T11:04:28+00:00</lastPublicationDateTime>
+       <creationDateTime __type="object" __classname="DateTime">2016-07-13T11:05:12+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T11:05:52+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T11:05:52+00:00</lastPublicationDateTime>
        <properties/>
       </variant>
-     </node>
-    </node>
-    <node identifier="cb915819-375f-4ce5-9264-aa05d915e8a1" nodeName="node-577f89125969d">
-     <variant sortingIndex="250" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="4" removed="" hidden="" hiddenInIndex="">
-      <dimensions>
-       <language>de</language>
-      </dimensions>
-      <accessRoles __type="array"/>
-      <creationDateTime __type="object" __classname="DateTime">2016-07-08T11:05:54+00:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2016-07-08T11:07:03+00:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-08T11:07:03+00:00</lastPublicationDateTime>
-      <properties>
-       <uriPathSegment __type="string">anmelden</uriPathSegment>
-       <canonicalLink __type="string"></canonicalLink>
-       <title __type="string">Anmelden</title>
-      </properties>
-     </variant>
-     <node identifier="228d9d04-4199-44e4-6cfb-01bb90b81642" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
-       <dimensions>
-        <language>de</language>
-       </dimensions>
-       <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2016-07-08T11:05:54+00:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2016-07-08T11:07:03+00:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-08T11:07:03+00:00</lastPublicationDateTime>
-       <properties/>
-      </variant>
-      <node identifier="366ee197-416a-41a1-b588-58d98a11b9c7" nodeName="node-577f89263b5b9">
-       <variant sortingIndex="100" workspace="live" nodeType="Flowpack.Neos.FrontendLogin:LoginForm" version="3" removed="" hidden="" hiddenInIndex="">
+      <node identifier="929422c4-5d9b-455d-8264-efd567175048" nodeName="node-578620e17280b">
+       <variant sortingIndex="25" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="5" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>de</language>
         </dimensions>
         <accessRoles __type="array"/>
-        <creationDateTime __type="object" __classname="DateTime">2016-07-08T11:06:14+00:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2016-07-08T11:07:03+00:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-08T11:07:03+00:00</lastPublicationDateTime>
+        <creationDateTime __type="object" __classname="DateTime">2016-07-13T11:07:13+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T11:07:32+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T11:07:31+00:00</lastPublicationDateTime>
         <properties>
-         <redirectAfterLogin __type="string">ede7c400-76ce-42ae-bd4b-f4474ec01140</redirectAfterLogin>
-         <redirectAfterLogout __type="string">4a336291-cd98-edf2-2fe1-8931ba3f7a7e</redirectAfterLogout>
+         <title __type="string">&lt;h1&gt;Frontend login&lt;/h1&gt;</title>
         </properties>
        </variant>
       </node>
-     </node>
-    </node>
-    <node identifier="ffb5848e-8bb6-4270-97e9-deaf8572c205" nodeName="node-577fa24fe5de7">
-     <variant sortingIndex="350" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
-      <dimensions>
-       <language>de</language>
-      </dimensions>
-      <accessRoles __type="array"/>
-      <creationDateTime __type="object" __classname="DateTime">2016-07-08T12:53:35+00:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2016-07-08T12:53:49+00:00</lastModificationDateTime>
-      <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-08T12:53:49+00:00</lastPublicationDateTime>
-      <properties>
-       <uriPathSegment __type="string">kontakt</uriPathSegment>
-       <canonicalLink __type="string"></canonicalLink>
-       <title __type="string">Kontakt</title>
-      </properties>
-     </variant>
-     <node identifier="a94fb984-4dc0-5ba9-fb50-ff1bd6b0ac22" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
-       <dimensions>
-        <language>de</language>
-       </dimensions>
-       <accessRoles __type="array"/>
-       <creationDateTime __type="object" __classname="DateTime">2016-07-08T12:53:35+00:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2016-07-08T12:53:49+00:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-08T12:53:49+00:00</lastPublicationDateTime>
-       <properties/>
-      </variant>
-      <node identifier="5bd3c395-8ead-437c-be34-b443df3cbe21" nodeName="node-577fa256f1234">
-       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Form" version="3" removed="" hidden="" hiddenInIndex="">
+      <node identifier="c4db6d19-1728-4243-af49-fc8851944240" nodeName="node-57862105af45a">
+       <variant sortingIndex="38" workspace="live" nodeType="TYPO3.Neos.NodeTypes:TwoColumn" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>de</language>
         </dimensions>
         <accessRoles __type="array"/>
-        <creationDateTime __type="object" __classname="DateTime">2016-07-08T12:53:42+00:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2016-07-08T13:06:51+00:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-08T13:06:51+00:00</lastPublicationDateTime>
+        <creationDateTime __type="object" __classname="DateTime">2016-07-13T11:07:49+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T11:08:14+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T11:08:14+00:00</lastPublicationDateTime>
         <properties>
-         <formIdentifier __type="string">contact-form</formIdentifier>
+         <layout __type="string">3-9</layout>
         </properties>
        </variant>
+       <node identifier="a8be4d46-0a57-ead5-4711-2932f7422058" nodeName="column0">
+        <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2016-07-13T11:07:49+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T11:08:14+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T11:08:14+00:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+        <node identifier="c707d009-a6ed-46eb-be7a-5132c9f5e4d0" nodeName="node-578622e36d17e">
+         <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="12" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>de</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-07-13T11:15:47+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T11:23:24+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T11:23:24+00:00</lastPublicationDateTime>
+          <properties>
+           <text __type="string">&lt;p&gt;Username: &quot;frontenduser&quot;&lt;br/&gt;Password: &quot;password&quot;&lt;/p&gt;</text>
+          </properties>
+         </variant>
+        </node>
+       </node>
+       <node identifier="6f66df6a-96a9-3cdf-cb95-ef3203d25521" nodeName="column1">
+        <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2016-07-13T11:07:49+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T11:08:14+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T11:08:14+00:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+        <node identifier="8407f1fe-a64e-4fee-82f2-9ff2759d4ec6" nodeName="node-57862079aec45">
+         <variant sortingIndex="150" workspace="live" nodeType="Flowpack.Neos.FrontendLogin:LoginForm" version="5" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>de</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-07-13T11:05:29+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T11:13:00+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T11:13:00+00:00</lastPublicationDateTime>
+          <properties>
+           <redirectAfterLogin __type="string">6cc5fac6-3cae-46ce-82a8-0f496db63c43</redirectAfterLogin>
+           <redirectAfterLogout __type="string">733b24be-f804-4277-afae-a44d455205f3</redirectAfterLogout>
+          </properties>
+         </variant>
+        </node>
+       </node>
+      </node>
+     </node>
+     <node identifier="6cc5fac6-3cae-46ce-82a8-0f496db63c43" nodeName="node-578622085f693">
+      <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2016-07-13T11:12:08+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T11:13:00+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T11:13:00+00:00</lastPublicationDateTime>
+       <properties>
+        <uriPathSegment __type="string">secret-page</uriPathSegment>
+        <canonicalLink __type="string"></canonicalLink>
+        <title __type="string">Secret page</title>
+       </properties>
+      </variant>
+      <node identifier="41d11205-556d-9802-12d1-be0e142e34d3" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2016-07-13T11:12:08+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T11:13:00+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T11:13:00+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="396d74c0-bddc-460a-8425-aca801df17bc" nodeName="node-5786232a1c248">
+        <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="5" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2016-07-13T11:16:58+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2016-07-13T11:17:41+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T11:17:41+00:00</lastPublicationDateTime>
+         <properties>
+          <title __type="string">&lt;h1&gt;Secret page&lt;/h1&gt;</title>
+         </properties>
+        </variant>
+       </node>
       </node>
      </node>
     </node>
