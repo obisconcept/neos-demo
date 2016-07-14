@@ -9,7 +9,8 @@
         "typo3/neos-seo": "~1.0",
         "flowpack/neos-frontendlogin": "~2.1",
         "obisconcept/neos-bootstrap": "dev-master",
-        "obisconcept/neos-bootstrap-form": "dev-master"
+        "obisconcept/neos-bootstrap-form": "dev-master",
+        "obisconcept/neos-swiper": "dev-master"
     },
     "autoload": {
         "psr-0": {
