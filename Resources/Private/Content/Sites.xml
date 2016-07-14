@@ -885,6 +885,247 @@
       </node>
      </node>
     </node>
+    <node identifier="71e55411-bebd-4023-92c4-c80d60547106" nodeName="node-57874fabaa89f">
+     <variant sortingIndex="201" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="4" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>de</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2016-07-14T08:39:07+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">swiper</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Swiper</title>
+      </properties>
+     </variant>
+     <node identifier="6b6d1cd6-aa04-7773-cf7f-a3f55a284fdf" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>de</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2016-07-14T08:39:07+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="4829464e-bbbb-426f-8a7c-2e3b2998aae9" nodeName="node-57874fe213bbe">
+       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2016-07-14T08:40:02+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastPublicationDateTime>
+        <properties>
+         <title __type="string">&lt;h1&gt;Swiper&lt;/h1&gt;</title>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="949a7baa-043b-4b06-b01f-3c641f116f5b" nodeName="node-57874ff02babf">
+       <variant sortingIndex="150" workspace="live" nodeType="TYPO3.Neos.NodeTypes:TwoColumn" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>de</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2016-07-14T08:40:16+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastPublicationDateTime>
+        <properties>
+         <layout __type="string">3-9</layout>
+        </properties>
+       </variant>
+       <node identifier="a0bce8b3-da77-115b-6873-d0bbf1e32e7d" nodeName="column0">
+        <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2016-07-14T08:40:16+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+        <node identifier="0730d4e9-e7d8-4b8f-948c-67ad65637c74" nodeName="node-5787500e55ea0">
+         <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="6" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>de</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-07-14T08:40:46+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastPublicationDateTime>
+          <properties>
+           <text __type="string">&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;br/&gt;&lt;/p&gt;</text>
+          </properties>
+         </variant>
+        </node>
+       </node>
+       <node identifier="c2932bcd-e93b-4f35-7548-6cd23df1fa8d" nodeName="column1">
+        <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>de</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2016-07-14T08:40:16+00:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+        <node identifier="35f4b536-f19c-4944-b3d8-d29428931efa" nodeName="node-57874ffe9599c">
+         <variant sortingIndex="100" workspace="live" nodeType="ObisConcept.NeosSwiper:Swiper" version="2" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>de</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2016-07-14T08:40:30+00:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastPublicationDateTime>
+          <properties/>
+         </variant>
+         <node identifier="aa25d6d8-946b-f958-0855-7a3f83b0b4a9" nodeName="swipercollection">
+          <variant sortingIndex="100" workspace="live" nodeType="ObisConcept.NeosSwiper:SwiperCollection" version="2" removed="" hidden="" hiddenInIndex="">
+           <dimensions>
+            <language>de</language>
+           </dimensions>
+           <accessRoles __type="array"/>
+           <creationDateTime __type="object" __classname="DateTime">2016-07-14T08:40:30+00:00</creationDateTime>
+           <lastModificationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastModificationDateTime>
+           <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastPublicationDateTime>
+           <properties/>
+          </variant>
+          <node identifier="9feae55b-7249-4fe5-9c32-3f73e07768c4" nodeName="node-578750684b6c1">
+           <variant sortingIndex="150" workspace="live" nodeType="ObisConcept.NeosSwiper:SwiperSlide" version="4" removed="" hidden="" hiddenInIndex="">
+            <dimensions>
+             <language>de</language>
+            </dimensions>
+            <accessRoles __type="array"/>
+            <creationDateTime __type="object" __classname="DateTime">2016-07-14T08:42:16+00:00</creationDateTime>
+            <lastModificationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastModificationDateTime>
+            <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastPublicationDateTime>
+            <properties>
+             <image __type="object" __identifier="0ee88216-5cca-45a8-8b49-795aea8b0031" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;0ee88216-5cca-45a8-8b49-795aea8b0031&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;800x400.png&quot;,&quot;hash&quot;:&quot;da349cba74285fc3dc7aa7c4afe63550ae1d153c&quot;,&quot;__identity&quot;:&quot;2c58bfcf-cc36-497e-9a92-dbe726731566&quot;}}</image>
+             <title __type="string">Slide 2</title>
+            </properties>
+           </variant>
+           <node identifier="5c953cd8-a7b0-82f3-7d15-4963657f48d1" nodeName="contentcollection">
+            <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+             <dimensions>
+              <language>de</language>
+             </dimensions>
+             <accessRoles __type="array"/>
+             <creationDateTime __type="object" __classname="DateTime">2016-07-14T08:42:16+00:00</creationDateTime>
+             <lastModificationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastModificationDateTime>
+             <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastPublicationDateTime>
+             <properties/>
+            </variant>
+            <node identifier="dee79498-e472-4f15-ba3d-e9d7ef72fa03" nodeName="node-57875163db4d3">
+             <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
+              <dimensions>
+               <language>de</language>
+              </dimensions>
+              <accessRoles __type="array"/>
+              <creationDateTime __type="object" __classname="DateTime">2016-07-14T08:46:27+00:00</creationDateTime>
+              <lastModificationDateTime __type="object" __classname="DateTime">2016-07-14T08:46:56+00:00</lastModificationDateTime>
+              <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-14T08:46:56+00:00</lastPublicationDateTime>
+              <properties>
+               <text __type="string">&lt;p&gt;Content of slide 2&lt;/p&gt;</text>
+              </properties>
+             </variant>
+            </node>
+           </node>
+          </node>
+          <node identifier="66a6a6c1-f641-4249-a04e-6721995dc042" nodeName="node-5787507ce672a">
+           <variant sortingIndex="200" workspace="live" nodeType="ObisConcept.NeosSwiper:SwiperSlide" version="5" removed="" hidden="" hiddenInIndex="">
+            <dimensions>
+             <language>de</language>
+            </dimensions>
+            <accessRoles __type="array"/>
+            <creationDateTime __type="object" __classname="DateTime">2016-07-14T08:42:36+00:00</creationDateTime>
+            <lastModificationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastModificationDateTime>
+            <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastPublicationDateTime>
+            <properties>
+             <image __type="object" __identifier="0ee88216-5cca-45a8-8b49-795aea8b0031" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;0ee88216-5cca-45a8-8b49-795aea8b0031&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;800x400.png&quot;,&quot;hash&quot;:&quot;da349cba74285fc3dc7aa7c4afe63550ae1d153c&quot;,&quot;__identity&quot;:&quot;2c58bfcf-cc36-497e-9a92-dbe726731566&quot;}}</image>
+             <title __type="string">Slide 3</title>
+            </properties>
+           </variant>
+           <node identifier="ab145b4e-0062-f6a0-716b-c973af3fc344" nodeName="contentcollection">
+            <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+             <dimensions>
+              <language>de</language>
+             </dimensions>
+             <accessRoles __type="array"/>
+             <creationDateTime __type="object" __classname="DateTime">2016-07-14T08:42:36+00:00</creationDateTime>
+             <lastModificationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastModificationDateTime>
+             <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastPublicationDateTime>
+             <properties/>
+            </variant>
+            <node identifier="3b76ec98-119d-4b33-aea6-b8e5b0ca861e" nodeName="node-5787517125a44">
+             <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="5" removed="" hidden="" hiddenInIndex="">
+              <dimensions>
+               <language>de</language>
+              </dimensions>
+              <accessRoles __type="array"/>
+              <creationDateTime __type="object" __classname="DateTime">2016-07-14T08:46:41+00:00</creationDateTime>
+              <lastModificationDateTime __type="object" __classname="DateTime">2016-07-14T08:46:56+00:00</lastModificationDateTime>
+              <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-14T08:46:56+00:00</lastPublicationDateTime>
+              <properties>
+               <text __type="string">&lt;p&gt;Content of slide 3&lt;/p&gt;</text>
+              </properties>
+             </variant>
+            </node>
+           </node>
+          </node>
+          <node identifier="26dfcb4d-7545-6fb0-1031-cd2509f32440" nodeName="slideone">
+           <variant sortingIndex="100" workspace="live" nodeType="ObisConcept.NeosSwiper:SwiperSlide" version="3" removed="" hidden="" hiddenInIndex="">
+            <dimensions>
+             <language>de</language>
+            </dimensions>
+            <accessRoles __type="array"/>
+            <creationDateTime __type="object" __classname="DateTime">2016-07-14T08:40:30+00:00</creationDateTime>
+            <lastModificationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastModificationDateTime>
+            <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastPublicationDateTime>
+            <properties>
+             <image __type="object" __identifier="0ee88216-5cca-45a8-8b49-795aea8b0031" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;0ee88216-5cca-45a8-8b49-795aea8b0031&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;800x400.png&quot;,&quot;hash&quot;:&quot;da349cba74285fc3dc7aa7c4afe63550ae1d153c&quot;,&quot;__identity&quot;:&quot;2c58bfcf-cc36-497e-9a92-dbe726731566&quot;}}</image>
+             <title __type="string">Slide 1</title>
+            </properties>
+           </variant>
+           <node identifier="33c6efac-9b57-8af9-04e0-c62049b822cf" nodeName="contentcollection">
+            <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+             <dimensions>
+              <language>de</language>
+             </dimensions>
+             <accessRoles __type="array"/>
+             <creationDateTime __type="object" __classname="DateTime">2016-07-14T08:40:30+00:00</creationDateTime>
+             <lastModificationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastModificationDateTime>
+             <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastPublicationDateTime>
+             <properties/>
+            </variant>
+            <node identifier="2c32e640-2b49-4bfe-a8fa-56e323fd7623" nodeName="node-5787514e58522">
+             <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="5" removed="" hidden="" hiddenInIndex="">
+              <dimensions>
+               <language>de</language>
+              </dimensions>
+              <accessRoles __type="array"/>
+              <creationDateTime __type="object" __classname="DateTime">2016-07-14T08:46:06+00:00</creationDateTime>
+              <lastModificationDateTime __type="object" __classname="DateTime">2016-07-14T08:46:56+00:00</lastModificationDateTime>
+              <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-14T08:46:56+00:00</lastPublicationDateTime>
+              <properties>
+               <text __type="string">&lt;p&gt;Content of slide 1&lt;/p&gt;</text>
+              </properties>
+             </variant>
+            </node>
+           </node>
+          </node>
+         </node>
+        </node>
+       </node>
+      </node>
+     </node>
+    </node>
    </node>
   </nodes>
  </site>
