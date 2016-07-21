@@ -1204,16 +1204,19 @@
          <properties/>
         </variant>
         <node identifier="e7b1fa23-d115-4b7d-8ad7-d7071a92408e" nodeName="node-578f3e494f048">
-         <variant sortingIndex="200" workspace="live" nodeType="ObisConcept.NeosGmaps:GoogleMap" version="3" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="200" workspace="live" nodeType="ObisConcept.NeosGmaps:GoogleMap" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>de</language>
           </dimensions>
           <accessRoles __type="array"/>
           <creationDateTime __type="object" __classname="DateTime">2016-07-20T09:03:05+00:00</creationDateTime>
-          <lastModificationDateTime __type="object" __classname="DateTime">2016-07-20T09:14:35+00:00</lastModificationDateTime>
-          <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-20T09:14:35+00:00</lastPublicationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-07-21T08:06:26+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-21T08:06:26+00:00</lastPublicationDateTime>
           <properties>
            <height __type="integer">400</height>
+           <lat __type="string">51.163375</lat>
+           <lng __type="string">10.447683</lng>
+           <zoom __type="string">5</zoom>
           </properties>
          </variant>
          <node identifier="59ed6fad-11ca-95c8-3e14-dc3eb69b0b8b" nodeName="markercollection">
@@ -1228,19 +1231,19 @@
            <properties/>
           </variant>
           <node identifier="ec18c93f-b7fd-9365-af74-d0ca696eab52" nodeName="markerone">
-           <variant sortingIndex="100" workspace="live" nodeType="ObisConcept.NeosGmaps:GoogleMapMarker" version="8" removed="" hidden="" hiddenInIndex="">
+           <variant sortingIndex="100" workspace="live" nodeType="ObisConcept.NeosGmaps:GoogleMapMarker" version="9" removed="" hidden="" hiddenInIndex="">
             <dimensions>
              <language>de</language>
             </dimensions>
             <accessRoles __type="array"/>
             <creationDateTime __type="object" __classname="DateTime">2016-07-20T09:03:05+00:00</creationDateTime>
-            <lastModificationDateTime __type="object" __classname="DateTime">2016-07-20T13:41:53+00:00</lastModificationDateTime>
-            <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-20T13:41:53+00:00</lastPublicationDateTime>
+            <lastModificationDateTime __type="object" __classname="DateTime">2016-07-21T07:16:41+00:00</lastModificationDateTime>
+            <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-21T07:16:41+00:00</lastPublicationDateTime>
             <properties>
              <street __type="string">Dr.-Ottmar-Kohler-Straße 1</street>
-             <zip __type="integer">51643</zip>
+             <zip __type="string">51643</zip>
              <city __type="string">Gummersbach</city>
-             <country __type="string">Deutschland</country>
+             <country __type="string">Germany</country>
              <title __type="string">obis|CONCEPT</title>
              <text __type="string">Dr. Ottmar-Kohler-Straße 1
 51643 Gummersbach</text>
@@ -1248,42 +1251,182 @@
            </variant>
           </node>
           <node identifier="eaa27908-996c-4dfe-bd97-868c77ae9d92" nodeName="node-578f584c7d870">
-           <variant sortingIndex="150" workspace="live" nodeType="ObisConcept.NeosGmaps:GoogleMapMarker" version="5" removed="" hidden="" hiddenInIndex="">
+           <variant sortingIndex="150" workspace="live" nodeType="ObisConcept.NeosGmaps:GoogleMapMarker" version="7" removed="" hidden="" hiddenInIndex="">
             <dimensions>
              <language>de</language>
             </dimensions>
             <accessRoles __type="array"/>
             <creationDateTime __type="object" __classname="DateTime">2016-07-20T10:54:04+00:00</creationDateTime>
-            <lastModificationDateTime __type="object" __classname="DateTime">2016-07-20T13:41:53+00:00</lastModificationDateTime>
-            <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-20T13:41:53+00:00</lastPublicationDateTime>
+            <lastModificationDateTime __type="object" __classname="DateTime">2016-07-21T07:16:41+00:00</lastModificationDateTime>
+            <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-21T07:16:41+00:00</lastPublicationDateTime>
             <properties>
              <street __type="string">ABC-Strasse 19</street>
-             <zip __type="integer">20354</zip>
+             <zip __type="string">20354</zip>
              <city __type="string">Hamburg</city>
-             <country __type="string">Deutschland</country>
-             <title __type="string">Google Germany</title>
+             <country __type="string">Germany</country>
+             <title __type="string">Google Hamburg</title>
              <text __type="string">ABC-Strasse 19
 20354 Hamburg</text>
             </properties>
            </variant>
           </node>
           <node identifier="174602cf-3594-492b-9790-f02a16b611e0" nodeName="node-578f64b08a5ca">
-           <variant sortingIndex="250" workspace="live" nodeType="ObisConcept.NeosGmaps:GoogleMapMarker" version="4" removed="" hidden="" hiddenInIndex="">
+           <variant sortingIndex="250" workspace="live" nodeType="ObisConcept.NeosGmaps:GoogleMapMarker" version="7" removed="" hidden="" hiddenInIndex="">
             <dimensions>
              <language>de</language>
             </dimensions>
             <accessRoles __type="array"/>
             <creationDateTime __type="object" __classname="DateTime">2016-07-20T11:46:56+00:00</creationDateTime>
-            <lastModificationDateTime __type="object" __classname="DateTime">2016-07-20T14:03:32+00:00</lastModificationDateTime>
-            <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-20T14:03:32+00:00</lastPublicationDateTime>
+            <lastModificationDateTime __type="object" __classname="DateTime">2016-07-21T07:16:41+00:00</lastModificationDateTime>
+            <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-21T07:16:41+00:00</lastPublicationDateTime>
             <properties>
-             <street __type="string">Arnulfstr. 19</street>
-             <zip __type="integer">80335</zip>
+             <street __type="string">8 Rue de Londres</street>
+             <zip __type="string">75009</zip>
+             <city __type="string">Paris</city>
+             <country __type="string">France</country>
+             <title __type="string">Google Paris</title>
+             <text __type="string">8 Rue de Londres,
+75009 Paris</text>
+            </properties>
+           </variant>
+          </node>
+          <node identifier="84569d3d-019b-4312-98da-dc6cb9d4775f" nodeName="node-5790744bdd10a">
+           <variant sortingIndex="200" workspace="live" nodeType="ObisConcept.NeosGmaps:GoogleMapMarker" version="5" removed="" hidden="" hiddenInIndex="">
+            <dimensions>
+             <language>de</language>
+            </dimensions>
+            <accessRoles __type="array"/>
+            <creationDateTime __type="object" __classname="DateTime">2016-07-21T07:05:47+00:00</creationDateTime>
+            <lastModificationDateTime __type="object" __classname="DateTime">2016-07-21T07:16:41+00:00</lastModificationDateTime>
+            <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-21T07:16:41+00:00</lastPublicationDateTime>
+            <properties>
+             <street __type="string">Erika-Mann-Straße 33</street>
+             <zip __type="string">80636</zip>
              <city __type="string">München</city>
-             <country __type="string">Deutschland</country>
-             <title __type="string">Apple Computer</title>
-             <text __type="string">Arnulfstr. 19
-80335 München</text>
+             <country __type="string">Germany</country>
+             <title __type="string">Google Munich</title>
+             <text __type="string">Erika-Mann-Straße 33
+80636 München</text>
+            </properties>
+           </variant>
+          </node>
+          <node identifier="fb61b577-c47f-4209-b1c8-c9ddb189c3a9" nodeName="node-5790749e2ffac">
+           <variant sortingIndex="300" workspace="live" nodeType="ObisConcept.NeosGmaps:GoogleMapMarker" version="4" removed="" hidden="" hiddenInIndex="">
+            <dimensions>
+             <language>de</language>
+            </dimensions>
+            <accessRoles __type="array"/>
+            <creationDateTime __type="object" __classname="DateTime">2016-07-21T07:07:10+00:00</creationDateTime>
+            <lastModificationDateTime __type="object" __classname="DateTime">2016-07-21T07:07:55+00:00</lastModificationDateTime>
+            <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-21T07:07:55+00:00</lastPublicationDateTime>
+            <properties>
+             <street __type="string">1-13 St Giles High St</street>
+             <zip __type="string">WC2H 8AG</zip>
+             <city __type="string">London</city>
+             <country __type="string">United Kingdom</country>
+             <title __type="string">Google London</title>
+             <text __type="string">1-13 St Giles High St
+London WC2H 8AG</text>
+            </properties>
+           </variant>
+          </node>
+          <node identifier="7e530bad-c0a4-413a-9559-03087fa73d4c" nodeName="node-5790752b15b76">
+           <variant sortingIndex="225" workspace="live" nodeType="ObisConcept.NeosGmaps:GoogleMapMarker" version="5" removed="" hidden="" hiddenInIndex="">
+            <dimensions>
+             <language>de</language>
+            </dimensions>
+            <accessRoles __type="array"/>
+            <creationDateTime __type="object" __classname="DateTime">2016-07-21T07:09:31+00:00</creationDateTime>
+            <lastModificationDateTime __type="object" __classname="DateTime">2016-07-21T07:16:41+00:00</lastModificationDateTime>
+            <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-21T07:16:41+00:00</lastPublicationDateTime>
+            <properties>
+             <street __type="string">Graben 19/9</street>
+             <zip __type="string">1010</zip>
+             <city __type="string">Wien</city>
+             <country __type="string">Austria</country>
+             <title __type="string">Google Vienna</title>
+             <text __type="string">Graben 19/9
+1010 Vienna</text>
+            </properties>
+           </variant>
+          </node>
+          <node identifier="beea2fd1-8d9a-4639-8467-bdc9c4fc1e09" nodeName="node-57907641c7a5f">
+           <variant sortingIndex="350" workspace="live" nodeType="ObisConcept.NeosGmaps:GoogleMapMarker" version="4" removed="" hidden="" hiddenInIndex="">
+            <dimensions>
+             <language>de</language>
+            </dimensions>
+            <accessRoles __type="array"/>
+            <creationDateTime __type="object" __classname="DateTime">2016-07-21T07:14:09+00:00</creationDateTime>
+            <lastModificationDateTime __type="object" __classname="DateTime">2016-07-21T07:16:41+00:00</lastModificationDateTime>
+            <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-21T07:16:41+00:00</lastPublicationDateTime>
+            <properties>
+             <street __type="string">Stroupežnického 3191/17</street>
+             <zip __type="string">150 00</zip>
+             <city __type="string">Prague 5</city>
+             <country __type="string">Czech Republic</country>
+             <title __type="string">Google Prague</title>
+             <text __type="string">Stroupežnického 3191/17
+150 00 Prague 5</text>
+            </properties>
+           </variant>
+          </node>
+          <node identifier="489931ab-abce-4d9a-9afb-4078a938e7a3" nodeName="node-579076b158bc8">
+           <variant sortingIndex="400" workspace="live" nodeType="ObisConcept.NeosGmaps:GoogleMapMarker" version="4" removed="" hidden="" hiddenInIndex="">
+            <dimensions>
+             <language>de</language>
+            </dimensions>
+            <accessRoles __type="array"/>
+            <creationDateTime __type="object" __classname="DateTime">2016-07-21T07:16:01+00:00</creationDateTime>
+            <lastModificationDateTime __type="object" __classname="DateTime">2016-07-21T07:16:41+00:00</lastModificationDateTime>
+            <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-21T07:16:41+00:00</lastPublicationDateTime>
+            <properties>
+             <street __type="string">Emilii Plater 53</street>
+             <zip __type="string">00-113</zip>
+             <city __type="string">Warszawa</city>
+             <country __type="string">Poland</country>
+             <title __type="string">Google Warszawa</title>
+             <text __type="string">Emilii Plater 53
+00-113 Warszawa</text>
+            </properties>
+           </variant>
+          </node>
+          <node identifier="88533036-b2ee-4da3-9a1d-62340e61a1b0" nodeName="node-579077034e22f">
+           <variant sortingIndex="450" workspace="live" nodeType="ObisConcept.NeosGmaps:GoogleMapMarker" version="5" removed="" hidden="" hiddenInIndex="">
+            <dimensions>
+             <language>de</language>
+            </dimensions>
+            <accessRoles __type="array"/>
+            <creationDateTime __type="object" __classname="DateTime">2016-07-21T07:17:23+00:00</creationDateTime>
+            <lastModificationDateTime __type="object" __classname="DateTime">2016-07-21T10:33:12+00:00</lastModificationDateTime>
+            <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-21T10:33:12+00:00</lastPublicationDateTime>
+            <properties>
+             <street __type="string">Brandschenkestrasse 110</street>
+             <zip __type="string">8002</zip>
+             <city __type="string">Zürich</city>
+             <country __type="string">Switzerland</country>
+             <title __type="string">Google Zurich</title>
+             <text __type="string">Brandschenkestrasse 110
+8002 Zurich</text>
+            </properties>
+           </variant>
+          </node>
+          <node identifier="c5fc53fd-691d-413b-b3f8-7e3cb8baf655" nodeName="node-579077995163a">
+           <variant sortingIndex="550" workspace="live" nodeType="ObisConcept.NeosGmaps:GoogleMapMarker" version="4" removed="" hidden="" hiddenInIndex="">
+            <dimensions>
+             <language>de</language>
+            </dimensions>
+            <accessRoles __type="array"/>
+            <creationDateTime __type="object" __classname="DateTime">2016-07-21T07:19:53+00:00</creationDateTime>
+            <lastModificationDateTime __type="object" __classname="DateTime">2016-07-21T07:20:48+00:00</lastModificationDateTime>
+            <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-21T07:20:48+00:00</lastPublicationDateTime>
+            <properties>
+             <street __type="string">Via Federico Confalonieri 4</street>
+             <zip __type="string">20124</zip>
+             <city __type="string">Milano</city>
+             <country __type="string">Italia</country>
+             <title __type="string">Google Milan</title>
+             <text __type="string">Via Federico Confalonieri 4
+20124 Milano</text>
             </properties>
            </variant>
           </node>
