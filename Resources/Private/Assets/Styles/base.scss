@@ -5,9 +5,10 @@ html {
     body {
         margin: 0 0 80px;
         padding: 0;
-        
+
         @import 'table.scss';
-        
+        @import 'form.scss';
+
         footer {
             position: absolute;
             left: 0;

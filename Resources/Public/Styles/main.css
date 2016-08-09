@@ -41,6 +41,11 @@ html {
         border-top: 2px solid #ddd; }
       html body table table {
         background-color: transparent; }
+    html body .ajax-form {
+      text-align: center; }
+      html body .ajax-form i.fa-spinner {
+        margin-top: 50px;
+        font-size: 40px; }
     html body footer {
       position: absolute;
       left: 0;

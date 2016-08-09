@@ -15,7 +15,6 @@
       <title __type="string">Home</title>
       <uriPathSegment __type="string">home</uriPathSegment>
       <titleOverride __type="string">Neos Demo</titleOverride>
-      <canonicalLink __type="string"></canonicalLink>
      </properties>
     </variant>
     <node identifier="209cde2d-813d-446c-3b62-09c4be5d796c" nodeName="main">
@@ -69,7 +68,6 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T08:00:25+00:00</lastPublicationDateTime>
       <properties>
        <uriPathSegment __type="string">texts-images</uriPathSegment>
-       <canonicalLink __type="string"></canonicalLink>
        <title __type="string">Texts &amp; images</title>
       </properties>
      </variant>
@@ -261,7 +259,6 @@
               <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T14:53:28+00:00</lastPublicationDateTime>
               <properties>
                <text __type="string">&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;</text>
-               <caption __type="string"></caption>
                <alignment __type="string">right</alignment>
                <image __type="object" __identifier="542008bd-8a6b-4a94-a310-8f5d08c2b3f0" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;542008bd-8a6b-4a94-a310-8f5d08c2b3f0&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;200x150.png&quot;,&quot;hash&quot;:&quot;393bc2dc5a9b2e49e821ea791e4cb93c851dce51&quot;,&quot;__identity&quot;:&quot;cc19ab89-e32d-4fa1-9e59-cf385ded952d&quot;}}</image>
               </properties>
@@ -416,7 +413,6 @@
        <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T08:23:05+00:00</lastPublicationDateTime>
        <properties>
         <uriPathSegment __type="string">simple-contact-form</uriPathSegment>
-        <canonicalLink __type="string"></canonicalLink>
         <title __type="string">Simple contact form</title>
        </properties>
       </variant>
@@ -524,7 +520,6 @@
        <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T08:27:39+00:00</lastPublicationDateTime>
        <properties>
         <uriPathSegment __type="string">ajax-contact-form</uriPathSegment>
-        <canonicalLink __type="string"></canonicalLink>
         <title __type="string">AJAX contact form</title>
        </properties>
       </variant>
@@ -589,6 +584,20 @@
           <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T08:27:39+00:00</lastPublicationDateTime>
           <properties/>
          </variant>
+         <node identifier="03a7c72f-6156-4f6b-af87-05975567b39e" nodeName="node-57a9e3bbeead9">
+          <variant sortingIndex="100" workspace="live" nodeType="ObisConcept.NeosAjaxForm:AjaxForm" version="3" removed="" hidden="" hiddenInIndex="">
+           <dimensions>
+            <language>de</language>
+           </dimensions>
+           <accessRoles __type="array"/>
+           <creationDateTime __type="object" __classname="DateTime">2016-08-09T14:07:55+00:00</creationDateTime>
+           <lastModificationDateTime __type="object" __classname="DateTime">2016-08-09T14:08:16+00:00</lastModificationDateTime>
+           <lastPublicationDateTime __type="object" __classname="DateTime">2016-08-09T14:08:16+00:00</lastPublicationDateTime>
+           <properties>
+            <formIdentifier __type="string">contact-form</formIdentifier>
+           </properties>
+          </variant>
+         </node>
         </node>
        </node>
        <node identifier="e2b79668-999a-4b5d-b4fa-278502ed73f3" nodeName="node-5785f54b3f137">
@@ -652,7 +661,6 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T09:38:31+00:00</lastPublicationDateTime>
       <properties>
        <uriPathSegment __type="string">imprint</uriPathSegment>
-       <canonicalLink __type="string"></canonicalLink>
        <title __type="string">Imprint</title>
       </properties>
      </variant>
@@ -746,7 +754,6 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T11:05:52+00:00</lastPublicationDateTime>
       <properties>
        <uriPathSegment __type="string">frontend-login</uriPathSegment>
-       <canonicalLink __type="string"></canonicalLink>
        <title __type="string">Frontend login</title>
       </properties>
      </variant>
@@ -854,7 +861,6 @@
        <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-13T11:13:00+00:00</lastPublicationDateTime>
        <properties>
         <uriPathSegment __type="string">secret-page</uriPathSegment>
-        <canonicalLink __type="string"></canonicalLink>
         <title __type="string">Secret page</title>
        </properties>
       </variant>
@@ -897,7 +903,6 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastPublicationDateTime>
       <properties>
        <uriPathSegment __type="string">swiper</uriPathSegment>
-       <canonicalLink __type="string"></canonicalLink>
        <title __type="string">Swiper</title>
       </properties>
      </variant>
@@ -1138,7 +1143,6 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-20T09:01:06+00:00</lastPublicationDateTime>
       <properties>
        <uriPathSegment __type="string">google-maps</uriPathSegment>
-       <canonicalLink __type="string"></canonicalLink>
        <title __type="string">Google Maps</title>
       </properties>
      </variant>
