@@ -1208,19 +1208,26 @@
          <properties/>
         </variant>
         <node identifier="e7b1fa23-d115-4b7d-8ad7-d7071a92408e" nodeName="node-578f3e494f048">
-         <variant sortingIndex="200" workspace="live" nodeType="ObisConcept.NeosGmaps:GoogleMap" version="16" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="200" workspace="live" nodeType="ObisConcept.NeosGmaps:GoogleMap" version="17" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>de</language>
           </dimensions>
           <accessRoles __type="array"/>
           <creationDateTime __type="object" __classname="DateTime">2016-07-20T09:03:05+00:00</creationDateTime>
-          <lastModificationDateTime __type="object" __classname="DateTime">2016-07-21T12:02:35+00:00</lastModificationDateTime>
-          <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-21T12:02:35+00:00</lastPublicationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2016-08-09T14:27:12+00:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2016-08-09T14:27:12+00:00</lastPublicationDateTime>
           <properties>
            <height __type="integer">400</height>
            <lat __type="string">51.163375</lat>
            <lng __type="string">10.447683</lng>
            <zoom __type="string">5</zoom>
+           <type __type="string">ROADMAP</type>
+           <draggable __type="boolean">1</draggable>
+           <scrollwheel __type="boolean">1</scrollwheel>
+           <mapTypeControl __type="boolean">1</mapTypeControl>
+           <zoomControl __type="boolean">1</zoomControl>
+           <streetViewControl __type="boolean">1</streetViewControl>
+           <fitBounds __type="boolean">1</fitBounds>
           </properties>
          </variant>
          <node identifier="59ed6fad-11ca-95c8-3e14-dc3eb69b0b8b" nodeName="markercollection">
