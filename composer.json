@@ -12,6 +12,7 @@
         "obisconcept/neos-bootstrap-form": "dev-master",
         "obisconcept/neos-ajax-form": "dev-master",
         "obisconcept/neos-swiper": "dev-master",
+        "obisconcept/neos-gallery": "dev-master",
         "obisconcept/neos-gmaps": "dev-master",
         "obisconcept/neos-php": "dev-master"
     },
