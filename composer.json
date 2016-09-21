@@ -14,7 +14,8 @@
         "obisconcept/neos-swiper": "dev-master",
         "obisconcept/neos-gallery": "dev-master",
         "obisconcept/neos-gmaps": "dev-master",
-        "obisconcept/neos-php": "dev-master"
+        "obisconcept/neos-php": "dev-master",
+        "obisconcept/neos-blog": "dev-master"
     },
     "autoload": {
         "psr-0": {
