@@ -2,12 +2,18 @@ TYPO3:
   TYPO3CR:
     contentDimensions:
       'language':
-        default: 'de'
-        defaultPreset: 'de'
+        label: 'ObisConcept.NeosDemo:Main:dimensions.language'
+        icon: 'icon-language'
+        default: 'en'
+        defaultPreset: 'en'
         presets:
+          'en':
+            label: 'English'
+            values: ['en']
+            uriSegment: 'en'
           'de':
             label: 'German'
-            values: ['de']
+            values: ['en', 'de']
             uriSegment: 'de'
 
   Neos:
