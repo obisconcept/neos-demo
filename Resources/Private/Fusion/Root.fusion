@@ -6,12 +6,12 @@ page = Page {
             content.@process.addBrand = ${'Neos Demo | ' + value}
         }
 
-        iconTag = TYPO3.TypoScript:Tag {
+        iconTag = Neos.Fusion:Tag {
             @position = 'after titleTag'
             tagName = 'link'
             attributes {
                 rel = 'shortcut icon'
-                href = TYPO3.TypoScript:ResourceUri {
+                href = Neos.Fusion:ResourceUri {
                     path = 'resource://ObisConcept.NeosDemo/Public/Images/favicon.ico'
                 }
             }

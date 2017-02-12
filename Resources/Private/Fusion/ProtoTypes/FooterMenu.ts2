@@ -1,0 +1,9 @@
+prototype(ObisConcept.NeosDemo:FooterMenu) < prototype(Neos.Neos:Menu) {
+
+    maximumLevels = 0
+
+    templatePath = 'resource://ObisConcept.NeosDemo/Private/Templates/ProtoTypes/FooterMenu.html'
+
+    itemCollection = ${q(site).children('[instanceof Neos.Neos:Shortcut]').filter('[title = \'Footer menu\']').children().get()}
+
+}

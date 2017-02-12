@@ -1,37 +1,40 @@
-TYPO3:
-  TYPO3CR:
-    contentDimensions:
-      'language':
-        label: 'ObisConcept.NeosDemo:Main:dimensions.language'
-        icon: 'icon-language'
-        default: 'en'
-        defaultPreset: 'en'
-        presets:
-          'en':
-            label: 'English'
-            values: ['en']
-            uriSegment: 'en'
-          'de':
-            label: 'German'
-            values: ['en', 'de']
-            uriSegment: 'de'
 
-  Neos:
-    userInterface:
-      translation:
-        autoInclude:
-          'ObisConcept.NeosDemo': ['Main', 'NodeTypes/*']
-
+ObisConcept:
+  BootstrapForm:
+    googleCaptcha:
+      contact-form:
+        secretkey: 6LdemCQTAAAAAOTo43cgmmUxk4pJpYuGCkMFkl8P
+Neos:
   Form:
     yamlPersistenceManager:
       savePath: 'resource://ObisConcept.NeosDemo/Private/Form/'
     presets:
       contact:
         title: 'Kontakt Formular'
-        parentPreset: 'bootstrap'
-
-ObisConcept:
-  BootstrapForm:
-    googleCaptcha:
-      contact-form:
-        secretkey: '6LdemCQTAAAAAOTo43cgmmUxk4pJpYuGCkMFkl8P'
+        parentPreset: bootstrap
+  Neos:
+    userInterface:
+      translation:
+        autoInclude:
+          ObisConcept.NeosDemo:
+            - Main
+            - 'NodeTypes/*'
+  ContentRepository:
+    contentDimensions:
+      language:
+        label: 'ObisConcept.NeosDemo:Main:dimensions.language'
+        icon: icon-language
+        default: en
+        defaultPreset: en
+        presets:
+          en:
+            label: English
+            values:
+              - en
+            uriSegment: en
+          de:
+            label: German
+            values:
+              - en
+              - de
+            uriSegment: de

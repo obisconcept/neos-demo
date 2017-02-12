@@ -1,4 +1,4 @@
-prototype(ObisConcept.NeosDemo:MainMenu) < prototype(TYPO3.Neos:Menu) {
+prototype(ObisConcept.NeosDemo:MainMenu) < prototype(Neos.Neos:Menu) {
 
     maximumLevels = 2
 

@@ -18,7 +18,7 @@
      </properties>
     </variant>
     <node identifier="209cde2d-813d-446c-3b62-09c4be5d796c" nodeName="main">
-     <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>en</language>
       </dimensions>
@@ -28,7 +28,7 @@
       <properties/>
      </variant>
      <node identifier="1e0fbfa6-b3d1-44a0-aeb8-8a779ed84d95" nodeName="node-57e046e7e29c4">
-      <variant sortingIndex="175" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="6" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="175" workspace="live" nodeType="Neos.NodeTypes:Headline" version="6" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en</language>
        </dimensions>
@@ -42,7 +42,7 @@
       </variant>
      </node>
      <node identifier="a2a07799-a77c-4827-871d-c120c4c13b7a" nodeName="node-57e0471bdef28">
-      <variant sortingIndex="250" workspace="live" nodeType="TYPO3.Neos.NodeTypes:ThreeColumn" version="4" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="250" workspace="live" nodeType="Neos.NodeTypes:ThreeColumn" version="4" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en</language>
        </dimensions>
@@ -55,7 +55,7 @@
        </properties>
       </variant>
       <node identifier="96844eaa-00bc-c987-cb3b-f64f276e33c1" nodeName="column0">
-       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en</language>
         </dimensions>
@@ -66,7 +66,7 @@
         <properties/>
        </variant>
        <node identifier="8c89b062-f771-4417-ba2f-c67f56eda6e8" nodeName="node-57e046f9c107f">
-        <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="5" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Text" version="5" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en</language>
          </dimensions>
@@ -81,7 +81,7 @@
        </node>
       </node>
       <node identifier="14f0f9b4-7af5-a5c2-1d35-4b10bcf5d6b0" nodeName="column1">
-       <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en</language>
         </dimensions>
@@ -93,7 +93,7 @@
        </variant>
       </node>
       <node identifier="b3585a3b-65d0-5adf-cab7-6aaf6b88328c" nodeName="column2">
-       <variant sortingIndex="300" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="300" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en</language>
         </dimensions>
@@ -104,7 +104,7 @@
         <properties/>
        </variant>
        <node identifier="2d97cc05-0533-4116-9313-92065736767f" nodeName="node-57e046a3673bb">
-        <variant sortingIndex="350" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Menu" version="6" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="350" workspace="live" nodeType="Neos.NodeTypes:Menu" version="6" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en</language>
          </dimensions>
@@ -122,7 +122,7 @@
      </node>
     </node>
     <node identifier="b9447906-744d-4e48-97c6-6b9c93e51f35" nodeName="node-57850489ab084">
-     <variant sortingIndex="175" workspace="live" nodeType="TYPO3.Neos:Shortcut" version="4" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="175" workspace="live" nodeType="Neos.Neos:Shortcut" version="4" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>en</language>
       </dimensions>
@@ -138,7 +138,7 @@
      </variant>
     </node>
     <node identifier="882365bf-3914-4f1f-bbb5-cfde54c3bac9" nodeName="node-5785e43d2f588">
-     <variant sortingIndex="188" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="5" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="188" workspace="live" nodeType="Neos.NodeTypes:Page" version="5" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>en</language>
       </dimensions>
@@ -152,7 +152,7 @@
       </properties>
      </variant>
      <node identifier="516e6caa-e4bc-f2ae-1888-5c1c2b494092" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en</language>
        </dimensions>
@@ -163,7 +163,7 @@
        <properties/>
       </variant>
       <node identifier="3157b49d-71aa-4730-9055-16c774b97617" nodeName="node-5785ed26eee91">
-       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:TwoColumn" version="2" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:TwoColumn" version="2" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en</language>
         </dimensions>
@@ -176,7 +176,7 @@
         </properties>
        </variant>
        <node identifier="89ba9011-eccf-eb15-e54b-3a98da88133b" nodeName="column0">
-        <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en</language>
          </dimensions>
@@ -187,7 +187,7 @@
          <properties/>
         </variant>
         <node identifier="859fdc19-1711-4602-8713-4c7d7a223bdd" nodeName="node-5785ed3c03b68">
-         <variant sortingIndex="150" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="36" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:Text" version="36" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en</language>
           </dimensions>
@@ -238,7 +238,7 @@
             </properties>
            </variant>
            <node identifier="98cf2181-8b76-cf0e-cbe5-65149090f958" nodeName="contentcollection">
-            <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+            <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
              <dimensions>
               <language>en</language>
              </dimensions>
@@ -249,7 +249,7 @@
              <properties/>
             </variant>
             <node identifier="ee19b842-5248-4216-98af-a148be867cf4" nodeName="node-5786193656688">
-             <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
+             <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
               <dimensions>
                <language>en</language>
               </dimensions>
@@ -278,7 +278,7 @@
             </properties>
            </variant>
            <node identifier="fd266ac3-1bfd-bfca-8149-98495e2b01aa" nodeName="contentcollection">
-            <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+            <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
              <dimensions>
               <language>en</language>
              </dimensions>
@@ -289,7 +289,7 @@
              <properties/>
             </variant>
             <node identifier="bdb76432-6667-4347-996d-ed559529a71d" nodeName="node-5786194d032f6">
-             <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="3" removed="" hidden="" hiddenInIndex="">
+             <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="3" removed="" hidden="" hiddenInIndex="">
               <dimensions>
                <language>en</language>
               </dimensions>
@@ -318,7 +318,7 @@
             </properties>
            </variant>
            <node identifier="8c472864-6a57-e2d0-c7ed-41cfd99a4dfc" nodeName="contentcollection">
-            <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="5" removed="" hidden="" hiddenInIndex="">
+            <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="5" removed="" hidden="" hiddenInIndex="">
              <dimensions>
               <language>en</language>
              </dimensions>
@@ -329,7 +329,7 @@
              <properties/>
             </variant>
             <node identifier="5a02abc9-c3da-4571-a7a8-59632aa098d0" nodeName="node-578655d08f00d">
-             <variant sortingIndex="300" workspace="live" nodeType="TYPO3.Neos.NodeTypes:TextWithImage" version="5" removed="" hidden="" hiddenInIndex="">
+             <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:TextWithImage" version="5" removed="" hidden="" hiddenInIndex="">
               <dimensions>
                <language>en</language>
               </dimensions>
@@ -340,7 +340,7 @@
               <properties>
                <text __type="string">&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;</text>
                <alignment __type="string">right</alignment>
-               <image __type="object" __identifier="542008bd-8a6b-4a94-a310-8f5d08c2b3f0" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;542008bd-8a6b-4a94-a310-8f5d08c2b3f0&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;200x150.png&quot;,&quot;hash&quot;:&quot;393bc2dc5a9b2e49e821ea791e4cb93c851dce51&quot;,&quot;__identity&quot;:&quot;cc19ab89-e32d-4fa1-9e59-cf385ded952d&quot;}}</image>
+               <image __type="object" __identifier="542008bd-8a6b-4a94-a310-8f5d08c2b3f0" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;542008bd-8a6b-4a94-a310-8f5d08c2b3f0&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;200x150.png&quot;,&quot;hash&quot;:&quot;393bc2dc5a9b2e49e821ea791e4cb93c851dce51&quot;,&quot;__identity&quot;:&quot;cc19ab89-e32d-4fa1-9e59-cf385ded952d&quot;}}</image>
               </properties>
              </variant>
             </node>
@@ -349,7 +349,7 @@
          </node>
         </node>
         <node identifier="454f6a67-ab22-41af-bf84-4cb8429761e5" nodeName="node-5786186b8fb42">
-         <variant sortingIndex="175" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="175" workspace="live" nodeType="Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en</language>
           </dimensions>
@@ -363,7 +363,7 @@
          </variant>
         </node>
         <node identifier="56d0c180-ff24-4166-bcea-15b183653ac9" nodeName="node-578619fa50062">
-         <variant sortingIndex="263" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="6" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="263" workspace="live" nodeType="Neos.NodeTypes:Headline" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en</language>
           </dimensions>
@@ -377,7 +377,7 @@
          </variant>
         </node>
         <node identifier="959bd1c7-2250-4b83-84ad-6e2965fe51e2" nodeName="node-578656cd4f69a">
-         <variant sortingIndex="319" workspace="live" nodeType="TYPO3.Neos.NodeTypes:AssetList" version="5" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="319" workspace="live" nodeType="Neos.NodeTypes:AssetList" version="5" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en</language>
           </dimensions>
@@ -387,14 +387,14 @@
           <lastPublicationDateTime __type="object" __classname="DateTime">2016-09-27T16:37:05+00:00</lastPublicationDateTime>
           <properties>
            <assets __type="array">
-            <entry0 __type="object" __identifier="f916f7d3-e992-4e0e-8976-338942e18d0f" __classname="TYPO3\Media\Domain\Model\Document" __encoding="json">{&quot;__identity&quot;:&quot;f916f7d3-e992-4e0e-8976-338942e18d0f&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;file.pdf&quot;,&quot;hash&quot;:&quot;3f879156c288ee65fb2fd42c55e71a5d9642f0c2&quot;,&quot;__identity&quot;:&quot;c4d8d814-bbc3-471f-a226-8d7e7403a01e&quot;}}</entry0>
+            <entry0 __type="object" __identifier="f916f7d3-e992-4e0e-8976-338942e18d0f" __classname="Neos\Media\Domain\Model\Document" __encoding="json">{&quot;__identity&quot;:&quot;f916f7d3-e992-4e0e-8976-338942e18d0f&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;file.pdf&quot;,&quot;hash&quot;:&quot;3f879156c288ee65fb2fd42c55e71a5d9642f0c2&quot;,&quot;__identity&quot;:&quot;c4d8d814-bbc3-471f-a226-8d7e7403a01e&quot;}}</entry0>
            </assets>
           </properties>
          </variant>
         </node>
        </node>
        <node identifier="d74b4520-1061-bce4-6076-5cd6d686f148" nodeName="column1">
-        <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en</language>
          </dimensions>
@@ -405,7 +405,7 @@
          <properties/>
         </variant>
         <node identifier="05398609-ebb7-45a5-b3fa-26cc650b8abf" nodeName="node-5785ee1f07733">
-         <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="5" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Headline" version="5" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en</language>
           </dimensions>
@@ -433,7 +433,7 @@
          </variant>
         </node>
         <node identifier="4bb2ddc1-e58a-4e12-95d9-a1937c1c1e1a" nodeName="node-5785ef3275d57">
-         <variant sortingIndex="275" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="275" workspace="live" nodeType="Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en</language>
           </dimensions>
@@ -447,7 +447,7 @@
          </variant>
         </node>
         <node identifier="a6e50358-1bae-4db9-9167-e08ddd3ff0cc" nodeName="node-578656a12529d">
-         <variant sortingIndex="238" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Image" version="5" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="238" workspace="live" nodeType="Neos.NodeTypes:Image" version="5" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en</language>
           </dimensions>
@@ -458,7 +458,7 @@
           <properties>
            <caption __type="string">&lt;p&gt;Image caption&lt;/p&gt;</caption>
            <alignment __type="string">center</alignment>
-           <image __type="object" __identifier="dd2a1a82-afde-4f13-9d79-9b1cd50d6d61" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;dd2a1a82-afde-4f13-9d79-9b1cd50d6d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;600x400.png&quot;,&quot;hash&quot;:&quot;f8f7bc99446ee6090be7fdd4641e5e0c77be6447&quot;,&quot;__identity&quot;:&quot;3fc3b99a-697c-457e-8581-22eff3ce97d4&quot;}}</image>
+           <image __type="object" __identifier="dd2a1a82-afde-4f13-9d79-9b1cd50d6d61" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;dd2a1a82-afde-4f13-9d79-9b1cd50d6d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;600x400.png&quot;,&quot;hash&quot;:&quot;f8f7bc99446ee6090be7fdd4641e5e0c77be6447&quot;,&quot;__identity&quot;:&quot;3fc3b99a-697c-457e-8581-22eff3ce97d4&quot;}}</image>
            <hasCaption __type="boolean">1</hasCaption>
           </properties>
          </variant>
@@ -499,7 +499,7 @@
             </properties>
            </variant>
            <node identifier="3089c83a-3a04-b334-a02b-02eff2867c29" nodeName="contentcollection">
-            <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+            <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
              <dimensions>
               <language>en</language>
              </dimensions>
@@ -510,7 +510,7 @@
              <properties/>
             </variant>
             <node identifier="008dbd4a-6b76-4c54-a9ee-72f9b0f7b125" nodeName="node-57ea9c7a10aeb">
-             <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
+             <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
               <dimensions>
                <language>en</language>
               </dimensions>
@@ -539,7 +539,7 @@
             </properties>
            </variant>
            <node identifier="635d749f-38d7-a589-0f69-f52aa1c004e4" nodeName="contentcollection">
-            <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+            <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
              <dimensions>
               <language>en</language>
              </dimensions>
@@ -550,7 +550,7 @@
              <properties/>
             </variant>
             <node identifier="f3118971-d30b-4397-90fa-68e89b2b42c6" nodeName="node-57ea9c8ad403e">
-             <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
+             <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
               <dimensions>
                <language>en</language>
               </dimensions>
@@ -579,7 +579,7 @@
             </properties>
            </variant>
            <node identifier="1af08166-ba6d-4a0e-a46e-4ffacbd9dad1" nodeName="contentcollection">
-            <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+            <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
              <dimensions>
               <language>en</language>
              </dimensions>
@@ -590,7 +590,7 @@
              <properties/>
             </variant>
             <node identifier="e31803c4-3c88-40ec-a1d9-a3e5e930d400" nodeName="node-57ea9c8ad403e">
-             <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="2" removed="" hidden="" hiddenInIndex="">
+             <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="2" removed="" hidden="" hiddenInIndex="">
               <dimensions>
                <language>en</language>
               </dimensions>
@@ -608,7 +608,7 @@
          </node>
         </node>
         <node identifier="f8da9707-9232-4467-be69-f93636ae2550" nodeName="node-57ea9c961e974">
-         <variant sortingIndex="313" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="6" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="313" workspace="live" nodeType="Neos.NodeTypes:Headline" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en</language>
           </dimensions>
@@ -626,7 +626,7 @@
      </node>
     </node>
     <node identifier="fa2ec327-215e-4e6a-991a-b26769133de7" nodeName="node-5785fa4ec1643">
-     <variant sortingIndex="213" workspace="live" nodeType="TYPO3.Neos:Shortcut" version="3" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="213" workspace="live" nodeType="Neos.Neos:Shortcut" version="3" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>en</language>
       </dimensions>
@@ -641,7 +641,7 @@
       </properties>
      </variant>
      <node identifier="76ef0c0b-7f9b-41c7-b3da-5c2b9e074c72" nodeName="node-5785f47148a72">
-      <variant sortingIndex="338" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="6" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="338" workspace="live" nodeType="Neos.NodeTypes:Page" version="6" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en</language>
        </dimensions>
@@ -655,7 +655,7 @@
        </properties>
       </variant>
       <node identifier="9bc7021b-ed98-ffe7-6448-8181e8f1f9c1" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en</language>
         </dimensions>
@@ -666,7 +666,7 @@
         <properties/>
        </variant>
        <node identifier="88d2534e-48ab-48eb-a027-779c565537c4" nodeName="node-5785f4bf2d4b7">
-        <variant sortingIndex="150" workspace="live" nodeType="TYPO3.Neos.NodeTypes:TwoColumn" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:TwoColumn" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en</language>
          </dimensions>
@@ -679,7 +679,7 @@
          </properties>
         </variant>
         <node identifier="892aab62-d1da-b0e3-cfcf-5beb29ceb6e9" nodeName="column0">
-         <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en</language>
           </dimensions>
@@ -690,7 +690,7 @@
           <properties/>
          </variant>
          <node identifier="c8e7b30e-cc06-4455-920e-7a039178a010" nodeName="node-5785f4ce17d51">
-          <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="13" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="13" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en</language>
            </dimensions>
@@ -705,7 +705,7 @@
          </node>
         </node>
         <node identifier="0868ac44-d1f4-4889-7e94-a438328ccde8" nodeName="column1">
-         <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en</language>
           </dimensions>
@@ -716,7 +716,7 @@
           <properties/>
          </variant>
          <node identifier="ee77217b-16f9-400a-b3dd-24ef77f5d9d3" nodeName="node-5785f47793b48">
-          <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Form" version="4" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Form" version="4" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en</language>
            </dimensions>
@@ -732,7 +732,7 @@
         </node>
        </node>
        <node identifier="2293f39f-0e52-4084-8b4a-883fd3c406e1" nodeName="node-5785f54b3f137">
-        <variant sortingIndex="75" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="5" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="75" workspace="live" nodeType="Neos.NodeTypes:Headline" version="5" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en</language>
          </dimensions>
@@ -748,7 +748,7 @@
       </node>
      </node>
      <node identifier="8c3a012f-7009-4f01-8d9c-2cd3d58b25b7" nodeName="node-5785fb3a84c46">
-      <variant sortingIndex="438" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="5" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="438" workspace="live" nodeType="Neos.NodeTypes:Page" version="5" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en</language>
        </dimensions>
@@ -762,7 +762,7 @@
        </properties>
       </variant>
       <node identifier="68524199-4484-e5e4-d89a-147efc6b0939" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en</language>
         </dimensions>
@@ -773,7 +773,7 @@
         <properties/>
        </variant>
        <node identifier="8b537323-dedf-42c0-9c83-2bb95dc40981" nodeName="node-5785f4bf2d4b7">
-        <variant sortingIndex="150" workspace="live" nodeType="TYPO3.Neos.NodeTypes:TwoColumn" version="2" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:TwoColumn" version="2" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en</language>
          </dimensions>
@@ -786,7 +786,7 @@
          </properties>
         </variant>
         <node identifier="bf3c8914-ad35-3b4e-dfa3-e8e7320576b8" nodeName="column0">
-         <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en</language>
           </dimensions>
@@ -797,7 +797,7 @@
           <properties/>
          </variant>
          <node identifier="e7fc9dd7-b2d0-433f-8a56-9298f4d9fee6" nodeName="node-5785f4ce17d51">
-          <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="3" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="3" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en</language>
            </dimensions>
@@ -812,7 +812,7 @@
          </node>
         </node>
         <node identifier="09e6e0df-039c-0360-b169-b7d4f5441b90" nodeName="column1">
-         <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en</language>
           </dimensions>
@@ -839,7 +839,7 @@
         </node>
        </node>
        <node identifier="e2b79668-999a-4b5d-b4fa-278502ed73f3" nodeName="node-5785f54b3f137">
-        <variant sortingIndex="75" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="75" workspace="live" nodeType="Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en</language>
          </dimensions>
@@ -856,7 +856,7 @@
      </node>
     </node>
     <node identifier="bbe06bf6-25a3-4668-a011-35ddd577905d" nodeName="node-57860b3dd193c">
-     <variant sortingIndex="313" workspace="live" nodeType="TYPO3.Neos:Shortcut" version="3" removed="" hidden="" hiddenInIndex="1">
+     <variant sortingIndex="313" workspace="live" nodeType="Neos.Neos:Shortcut" version="3" removed="" hidden="" hiddenInIndex="1">
       <dimensions>
        <language>en</language>
       </dimensions>
@@ -871,7 +871,7 @@
       </properties>
      </variant>
      <node identifier="3a60837e-7f74-4b6f-a48f-3108e71c5037" nodeName="node-57860b926f671">
-      <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:Shortcut" version="3" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:Shortcut" version="3" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en</language>
        </dimensions>
@@ -889,7 +889,7 @@
      </node>
     </node>
     <node identifier="e353a72e-d344-4ab8-9092-d1bd88c96cdc" nodeName="node-57860b6a15b3a">
-     <variant sortingIndex="263" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="5" removed="" hidden="" hiddenInIndex="1">
+     <variant sortingIndex="263" workspace="live" nodeType="Neos.NodeTypes:Page" version="5" removed="" hidden="" hiddenInIndex="1">
       <dimensions>
        <language>en</language>
       </dimensions>
@@ -903,7 +903,7 @@
       </properties>
      </variant>
      <node identifier="f4b1e082-e46a-ea29-a52b-fe0fd05909c6" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en</language>
        </dimensions>
@@ -914,7 +914,7 @@
        <properties/>
       </variant>
       <node identifier="4848256b-3579-432c-9ae7-f8a2dc5a1f77" nodeName="node-5786119e8ac09">
-       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:TwoColumn" version="2" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:TwoColumn" version="2" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en</language>
         </dimensions>
@@ -927,7 +927,7 @@
         </properties>
        </variant>
        <node identifier="a573f7e1-558c-52e6-87c5-ebd90cff892b" nodeName="column0">
-        <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en</language>
          </dimensions>
@@ -939,7 +939,7 @@
         </variant>
        </node>
        <node identifier="31ec717a-b0db-14e4-1865-6a5e098ab288" nodeName="column1">
-        <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en</language>
          </dimensions>
@@ -950,7 +950,7 @@
          <properties/>
         </variant>
         <node identifier="94c8dc3e-cd06-4c30-8a8e-d2b7e85e54ad" nodeName="node-578611b4b6370">
-         <variant sortingIndex="300" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Html" version="4" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Html" version="4" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en</language>
           </dimensions>
@@ -966,7 +966,7 @@
        </node>
       </node>
       <node identifier="3adf328d-7be7-4781-b1e3-f513be82f419" nodeName="node-578611cf4aa72">
-       <variant sortingIndex="50" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="5" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Headline" version="5" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en</language>
         </dimensions>
@@ -982,7 +982,7 @@
      </node>
     </node>
     <node identifier="733b24be-f804-4277-afae-a44d455205f3" nodeName="node-578620685bfd2">
-     <variant sortingIndex="238" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="4" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="238" workspace="live" nodeType="Neos.NodeTypes:Page" version="4" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>en</language>
       </dimensions>
@@ -996,7 +996,7 @@
       </properties>
      </variant>
      <node identifier="e45113c3-27fe-15d4-f810-757a23cc3f9b" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en</language>
        </dimensions>
@@ -1007,7 +1007,7 @@
        <properties/>
       </variant>
       <node identifier="929422c4-5d9b-455d-8264-efd567175048" nodeName="node-578620e17280b">
-       <variant sortingIndex="25" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="5" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="25" workspace="live" nodeType="Neos.NodeTypes:Headline" version="5" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en</language>
         </dimensions>
@@ -1021,7 +1021,7 @@
        </variant>
       </node>
       <node identifier="c4db6d19-1728-4243-af49-fc8851944240" nodeName="node-57862105af45a">
-       <variant sortingIndex="38" workspace="live" nodeType="TYPO3.Neos.NodeTypes:TwoColumn" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="38" workspace="live" nodeType="Neos.NodeTypes:TwoColumn" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en</language>
         </dimensions>
@@ -1034,7 +1034,7 @@
         </properties>
        </variant>
        <node identifier="a8be4d46-0a57-ead5-4711-2932f7422058" nodeName="column0">
-        <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en</language>
          </dimensions>
@@ -1045,7 +1045,7 @@
          <properties/>
         </variant>
         <node identifier="c707d009-a6ed-46eb-be7a-5132c9f5e4d0" nodeName="node-578622e36d17e">
-         <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="12" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="12" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en</language>
           </dimensions>
@@ -1060,7 +1060,7 @@
         </node>
        </node>
        <node identifier="6f66df6a-96a9-3cdf-cb95-ef3203d25521" nodeName="column1">
-        <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en</language>
          </dimensions>
@@ -1089,7 +1089,7 @@
       </node>
      </node>
      <node identifier="6cc5fac6-3cae-46ce-82a8-0f496db63c43" nodeName="node-578622085f693">
-      <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en</language>
        </dimensions>
@@ -1103,7 +1103,7 @@
        </properties>
       </variant>
       <node identifier="41d11205-556d-9802-12d1-be0e142e34d3" nodeName="main">
-       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en</language>
         </dimensions>
@@ -1114,7 +1114,7 @@
         <properties/>
        </variant>
        <node identifier="396d74c0-bddc-460a-8425-aca801df17bc" nodeName="node-5786232a1c248">
-        <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="5" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="5" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en</language>
          </dimensions>
@@ -1131,7 +1131,7 @@
      </node>
     </node>
     <node identifier="71e55411-bebd-4023-92c4-c80d60547106" nodeName="node-57874fabaa89f">
-     <variant sortingIndex="201" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="5" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="201" workspace="live" nodeType="Neos.NodeTypes:Page" version="5" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>en</language>
       </dimensions>
@@ -1145,7 +1145,7 @@
       </properties>
      </variant>
      <node identifier="6b6d1cd6-aa04-7773-cf7f-a3f55a284fdf" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en</language>
        </dimensions>
@@ -1156,7 +1156,7 @@
        <properties/>
       </variant>
       <node identifier="4829464e-bbbb-426f-8a7c-2e3b2998aae9" nodeName="node-57874fe213bbe">
-       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en</language>
         </dimensions>
@@ -1170,7 +1170,7 @@
        </variant>
       </node>
       <node identifier="949a7baa-043b-4b06-b01f-3c641f116f5b" nodeName="node-57874ff02babf">
-       <variant sortingIndex="150" workspace="live" nodeType="TYPO3.Neos.NodeTypes:TwoColumn" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:TwoColumn" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en</language>
         </dimensions>
@@ -1183,7 +1183,7 @@
         </properties>
        </variant>
        <node identifier="a0bce8b3-da77-115b-6873-d0bbf1e32e7d" nodeName="column0">
-        <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en</language>
          </dimensions>
@@ -1194,7 +1194,7 @@
          <properties/>
         </variant>
         <node identifier="0730d4e9-e7d8-4b8f-948c-67ad65637c74" nodeName="node-5787500e55ea0">
-         <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="6" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en</language>
           </dimensions>
@@ -1209,7 +1209,7 @@
         </node>
        </node>
        <node identifier="c2932bcd-e93b-4f35-7548-6cd23df1fa8d" nodeName="column1">
-        <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en</language>
          </dimensions>
@@ -1251,12 +1251,12 @@
             <lastModificationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastModificationDateTime>
             <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastPublicationDateTime>
             <properties>
-             <image __type="object" __identifier="0ee88216-5cca-45a8-8b49-795aea8b0031" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;0ee88216-5cca-45a8-8b49-795aea8b0031&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;800x400.png&quot;,&quot;hash&quot;:&quot;da349cba74285fc3dc7aa7c4afe63550ae1d153c&quot;,&quot;__identity&quot;:&quot;2c58bfcf-cc36-497e-9a92-dbe726731566&quot;}}</image>
+             <image __type="object" __identifier="0ee88216-5cca-45a8-8b49-795aea8b0031" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;0ee88216-5cca-45a8-8b49-795aea8b0031&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;800x400.png&quot;,&quot;hash&quot;:&quot;da349cba74285fc3dc7aa7c4afe63550ae1d153c&quot;,&quot;__identity&quot;:&quot;2c58bfcf-cc36-497e-9a92-dbe726731566&quot;}}</image>
              <title __type="string">Slide 2</title>
             </properties>
            </variant>
            <node identifier="5c953cd8-a7b0-82f3-7d15-4963657f48d1" nodeName="contentcollection">
-            <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+            <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
              <dimensions>
               <language>en</language>
              </dimensions>
@@ -1267,7 +1267,7 @@
              <properties/>
             </variant>
             <node identifier="dee79498-e472-4f15-ba3d-e9d7ef72fa03" nodeName="node-57875163db4d3">
-             <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
+             <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
               <dimensions>
                <language>en</language>
               </dimensions>
@@ -1292,12 +1292,12 @@
             <lastModificationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastModificationDateTime>
             <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastPublicationDateTime>
             <properties>
-             <image __type="object" __identifier="0ee88216-5cca-45a8-8b49-795aea8b0031" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;0ee88216-5cca-45a8-8b49-795aea8b0031&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;800x400.png&quot;,&quot;hash&quot;:&quot;da349cba74285fc3dc7aa7c4afe63550ae1d153c&quot;,&quot;__identity&quot;:&quot;2c58bfcf-cc36-497e-9a92-dbe726731566&quot;}}</image>
+             <image __type="object" __identifier="0ee88216-5cca-45a8-8b49-795aea8b0031" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;0ee88216-5cca-45a8-8b49-795aea8b0031&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;800x400.png&quot;,&quot;hash&quot;:&quot;da349cba74285fc3dc7aa7c4afe63550ae1d153c&quot;,&quot;__identity&quot;:&quot;2c58bfcf-cc36-497e-9a92-dbe726731566&quot;}}</image>
              <title __type="string">Slide 3</title>
             </properties>
            </variant>
            <node identifier="ab145b4e-0062-f6a0-716b-c973af3fc344" nodeName="contentcollection">
-            <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+            <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
              <dimensions>
               <language>en</language>
              </dimensions>
@@ -1308,7 +1308,7 @@
              <properties/>
             </variant>
             <node identifier="3b76ec98-119d-4b33-aea6-b8e5b0ca861e" nodeName="node-5787517125a44">
-             <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="5" removed="" hidden="" hiddenInIndex="">
+             <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="5" removed="" hidden="" hiddenInIndex="">
               <dimensions>
                <language>en</language>
               </dimensions>
@@ -1333,12 +1333,12 @@
             <lastModificationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastModificationDateTime>
             <lastPublicationDateTime __type="object" __classname="DateTime">2016-07-14T08:43:17+00:00</lastPublicationDateTime>
             <properties>
-             <image __type="object" __identifier="0ee88216-5cca-45a8-8b49-795aea8b0031" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;0ee88216-5cca-45a8-8b49-795aea8b0031&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;800x400.png&quot;,&quot;hash&quot;:&quot;da349cba74285fc3dc7aa7c4afe63550ae1d153c&quot;,&quot;__identity&quot;:&quot;2c58bfcf-cc36-497e-9a92-dbe726731566&quot;}}</image>
+             <image __type="object" __identifier="0ee88216-5cca-45a8-8b49-795aea8b0031" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;0ee88216-5cca-45a8-8b49-795aea8b0031&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;800x400.png&quot;,&quot;hash&quot;:&quot;da349cba74285fc3dc7aa7c4afe63550ae1d153c&quot;,&quot;__identity&quot;:&quot;2c58bfcf-cc36-497e-9a92-dbe726731566&quot;}}</image>
              <title __type="string">Slide 1</title>
             </properties>
            </variant>
            <node identifier="33c6efac-9b57-8af9-04e0-c62049b822cf" nodeName="contentcollection">
-            <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+            <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
              <dimensions>
               <language>en</language>
              </dimensions>
@@ -1349,7 +1349,7 @@
              <properties/>
             </variant>
             <node identifier="2c32e640-2b49-4bfe-a8fa-56e323fd7623" nodeName="node-5787514e58522">
-             <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="5" removed="" hidden="" hiddenInIndex="">
+             <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="5" removed="" hidden="" hiddenInIndex="">
               <dimensions>
                <language>en</language>
               </dimensions>
@@ -1371,7 +1371,7 @@
      </node>
     </node>
     <node identifier="4206610a-bf6c-4543-9ff3-ae64563bded0" nodeName="node-578f3dcb2b1bf">
-     <variant sortingIndex="207" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="4" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="207" workspace="live" nodeType="Neos.NodeTypes:Page" version="4" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>en</language>
       </dimensions>
@@ -1385,7 +1385,7 @@
       </properties>
      </variant>
      <node identifier="a26ef343-abda-828d-18df-c51ce28a9b10" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en</language>
        </dimensions>
@@ -1396,7 +1396,7 @@
        <properties/>
       </variant>
       <node identifier="45a0f9a3-213c-4dc0-9cef-a580ae08567f" nodeName="node-57874ff02babf">
-       <variant sortingIndex="125" workspace="live" nodeType="TYPO3.Neos.NodeTypes:TwoColumn" version="3" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="125" workspace="live" nodeType="Neos.NodeTypes:TwoColumn" version="3" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en</language>
         </dimensions>
@@ -1409,7 +1409,7 @@
         </properties>
        </variant>
        <node identifier="736967c9-61f2-b003-4864-6665e5a90ba4" nodeName="column0">
-        <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en</language>
          </dimensions>
@@ -1420,7 +1420,7 @@
          <properties/>
         </variant>
         <node identifier="a14028c0-7323-4943-8ffa-1e1b0dc5fa5e" nodeName="node-5787500e55ea0">
-         <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="2" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="2" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en</language>
           </dimensions>
@@ -1435,7 +1435,7 @@
         </node>
        </node>
        <node identifier="14cb559c-e9e2-cba5-df59-13ac78c1ff30" nodeName="column1">
-        <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en</language>
          </dimensions>
@@ -1684,7 +1684,7 @@ London WC2H 8AG</text>
        </node>
       </node>
       <node identifier="5dd7903d-0e42-4424-95f4-ca04f3cbce08" nodeName="node-578f3e16749ac">
-       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en</language>
         </dimensions>
@@ -1700,7 +1700,7 @@ London WC2H 8AG</text>
      </node>
     </node>
     <node identifier="1d835296-bcca-4f25-b0b3-c76446601ae1" nodeName="node-57e0222b29b5e">
-     <variant sortingIndex="204" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="204" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>en</language>
       </dimensions>
@@ -1714,7 +1714,7 @@ London WC2H 8AG</text>
       </properties>
      </variant>
      <node identifier="5a8d3867-1641-467c-0776-8ee01a785fe7" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en</language>
        </dimensions>
@@ -1725,7 +1725,7 @@ London WC2H 8AG</text>
        <properties/>
       </variant>
       <node identifier="c8f784c2-b784-4150-9735-14b1a90ac689" nodeName="node-57e0228317425">
-       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="3" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="3" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en</language>
         </dimensions>
@@ -1739,7 +1739,7 @@ London WC2H 8AG</text>
        </variant>
       </node>
       <node identifier="c78847b6-2d2d-434b-b173-224372e63b94" nodeName="node-57e0228c82361">
-       <variant sortingIndex="150" workspace="live" nodeType="TYPO3.Neos.NodeTypes:TwoColumn" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="150" workspace="live" nodeType="Neos.NodeTypes:TwoColumn" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en</language>
         </dimensions>
@@ -1752,7 +1752,7 @@ London WC2H 8AG</text>
         </properties>
        </variant>
        <node identifier="30d23b8f-45a9-8565-2dbb-1a68561b72a4" nodeName="column0">
-        <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en</language>
          </dimensions>
@@ -1763,7 +1763,7 @@ London WC2H 8AG</text>
          <properties/>
         </variant>
         <node identifier="485a9c02-03a5-4e6c-9fb3-a2590cca677a" nodeName="node-57e0229c1a9f5">
-         <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="3" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="3" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en</language>
           </dimensions>
@@ -1778,7 +1778,7 @@ London WC2H 8AG</text>
         </node>
        </node>
        <node identifier="01aa9878-dc38-60c6-066a-6cc1e163c6cc" nodeName="column1">
-        <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en</language>
          </dimensions>
@@ -1825,7 +1825,7 @@ London WC2H 8AG</text>
             <lastModificationDateTime __type="object" __classname="DateTime">2016-09-19T20:05:13+00:00</lastModificationDateTime>
             <lastPublicationDateTime __type="object" __classname="DateTime">2016-09-19T20:05:13+00:00</lastPublicationDateTime>
             <properties>
-             <image __type="object" __identifier="dd2a1a82-afde-4f13-9d79-9b1cd50d6d61" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;dd2a1a82-afde-4f13-9d79-9b1cd50d6d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;600x400.png&quot;,&quot;hash&quot;:&quot;f8f7bc99446ee6090be7fdd4641e5e0c77be6447&quot;,&quot;__identity&quot;:&quot;3fc3b99a-697c-457e-8581-22eff3ce97d4&quot;}}</image>
+             <image __type="object" __identifier="dd2a1a82-afde-4f13-9d79-9b1cd50d6d61" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;dd2a1a82-afde-4f13-9d79-9b1cd50d6d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;600x400.png&quot;,&quot;hash&quot;:&quot;f8f7bc99446ee6090be7fdd4641e5e0c77be6447&quot;,&quot;__identity&quot;:&quot;3fc3b99a-697c-457e-8581-22eff3ce97d4&quot;}}</image>
              <title __type="string">Image caption 1</title>
             </properties>
            </variant>
@@ -1840,7 +1840,7 @@ London WC2H 8AG</text>
             <lastModificationDateTime __type="object" __classname="DateTime">2016-09-19T19:31:34+00:00</lastModificationDateTime>
             <lastPublicationDateTime __type="object" __classname="DateTime">2016-09-19T19:31:34+00:00</lastPublicationDateTime>
             <properties>
-             <image __type="object" __identifier="dd2a1a82-afde-4f13-9d79-9b1cd50d6d61" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;dd2a1a82-afde-4f13-9d79-9b1cd50d6d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;600x400.png&quot;,&quot;hash&quot;:&quot;f8f7bc99446ee6090be7fdd4641e5e0c77be6447&quot;,&quot;__identity&quot;:&quot;3fc3b99a-697c-457e-8581-22eff3ce97d4&quot;}}</image>
+             <image __type="object" __identifier="dd2a1a82-afde-4f13-9d79-9b1cd50d6d61" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;dd2a1a82-afde-4f13-9d79-9b1cd50d6d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;600x400.png&quot;,&quot;hash&quot;:&quot;f8f7bc99446ee6090be7fdd4641e5e0c77be6447&quot;,&quot;__identity&quot;:&quot;3fc3b99a-697c-457e-8581-22eff3ce97d4&quot;}}</image>
              <title __type="string">Image caption 2</title>
             </properties>
            </variant>
@@ -1855,7 +1855,7 @@ London WC2H 8AG</text>
             <lastModificationDateTime __type="object" __classname="DateTime">2016-09-19T19:31:34+00:00</lastModificationDateTime>
             <lastPublicationDateTime __type="object" __classname="DateTime">2016-09-19T19:31:34+00:00</lastPublicationDateTime>
             <properties>
-             <image __type="object" __identifier="dd2a1a82-afde-4f13-9d79-9b1cd50d6d61" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;dd2a1a82-afde-4f13-9d79-9b1cd50d6d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;600x400.png&quot;,&quot;hash&quot;:&quot;f8f7bc99446ee6090be7fdd4641e5e0c77be6447&quot;,&quot;__identity&quot;:&quot;3fc3b99a-697c-457e-8581-22eff3ce97d4&quot;}}</image>
+             <image __type="object" __identifier="dd2a1a82-afde-4f13-9d79-9b1cd50d6d61" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;dd2a1a82-afde-4f13-9d79-9b1cd50d6d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;600x400.png&quot;,&quot;hash&quot;:&quot;f8f7bc99446ee6090be7fdd4641e5e0c77be6447&quot;,&quot;__identity&quot;:&quot;3fc3b99a-697c-457e-8581-22eff3ce97d4&quot;}}</image>
              <title __type="string">Image caption 3</title>
             </properties>
            </variant>
@@ -1870,7 +1870,7 @@ London WC2H 8AG</text>
             <lastModificationDateTime __type="object" __classname="DateTime">2016-09-19T19:31:34+00:00</lastModificationDateTime>
             <lastPublicationDateTime __type="object" __classname="DateTime">2016-09-19T19:31:34+00:00</lastPublicationDateTime>
             <properties>
-             <image __type="object" __identifier="dd2a1a82-afde-4f13-9d79-9b1cd50d6d61" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;dd2a1a82-afde-4f13-9d79-9b1cd50d6d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;600x400.png&quot;,&quot;hash&quot;:&quot;f8f7bc99446ee6090be7fdd4641e5e0c77be6447&quot;,&quot;__identity&quot;:&quot;3fc3b99a-697c-457e-8581-22eff3ce97d4&quot;}}</image>
+             <image __type="object" __identifier="dd2a1a82-afde-4f13-9d79-9b1cd50d6d61" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;dd2a1a82-afde-4f13-9d79-9b1cd50d6d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;600x400.png&quot;,&quot;hash&quot;:&quot;f8f7bc99446ee6090be7fdd4641e5e0c77be6447&quot;,&quot;__identity&quot;:&quot;3fc3b99a-697c-457e-8581-22eff3ce97d4&quot;}}</image>
              <title __type="string">Image caption 4</title>
             </properties>
            </variant>
@@ -1885,7 +1885,7 @@ London WC2H 8AG</text>
             <lastModificationDateTime __type="object" __classname="DateTime">2016-09-19T19:31:34+00:00</lastModificationDateTime>
             <lastPublicationDateTime __type="object" __classname="DateTime">2016-09-19T19:31:34+00:00</lastPublicationDateTime>
             <properties>
-             <image __type="object" __identifier="dd2a1a82-afde-4f13-9d79-9b1cd50d6d61" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;dd2a1a82-afde-4f13-9d79-9b1cd50d6d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;600x400.png&quot;,&quot;hash&quot;:&quot;f8f7bc99446ee6090be7fdd4641e5e0c77be6447&quot;,&quot;__identity&quot;:&quot;3fc3b99a-697c-457e-8581-22eff3ce97d4&quot;}}</image>
+             <image __type="object" __identifier="dd2a1a82-afde-4f13-9d79-9b1cd50d6d61" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;dd2a1a82-afde-4f13-9d79-9b1cd50d6d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;600x400.png&quot;,&quot;hash&quot;:&quot;f8f7bc99446ee6090be7fdd4641e5e0c77be6447&quot;,&quot;__identity&quot;:&quot;3fc3b99a-697c-457e-8581-22eff3ce97d4&quot;}}</image>
              <title __type="string">Image caption 5</title>
             </properties>
            </variant>
@@ -1900,7 +1900,7 @@ London WC2H 8AG</text>
             <lastModificationDateTime __type="object" __classname="DateTime">2016-09-19T19:32:15+00:00</lastModificationDateTime>
             <lastPublicationDateTime __type="object" __classname="DateTime">2016-09-19T19:32:15+00:00</lastPublicationDateTime>
             <properties>
-             <image __type="object" __identifier="dd2a1a82-afde-4f13-9d79-9b1cd50d6d61" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;dd2a1a82-afde-4f13-9d79-9b1cd50d6d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;600x400.png&quot;,&quot;hash&quot;:&quot;f8f7bc99446ee6090be7fdd4641e5e0c77be6447&quot;,&quot;__identity&quot;:&quot;3fc3b99a-697c-457e-8581-22eff3ce97d4&quot;}}</image>
+             <image __type="object" __identifier="dd2a1a82-afde-4f13-9d79-9b1cd50d6d61" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;dd2a1a82-afde-4f13-9d79-9b1cd50d6d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;600x400.png&quot;,&quot;hash&quot;:&quot;f8f7bc99446ee6090be7fdd4641e5e0c77be6447&quot;,&quot;__identity&quot;:&quot;3fc3b99a-697c-457e-8581-22eff3ce97d4&quot;}}</image>
              <title __type="string">Image caption 6</title>
             </properties>
            </variant>
@@ -1915,7 +1915,7 @@ London WC2H 8AG</text>
             <lastModificationDateTime __type="object" __classname="DateTime">2016-09-19T19:32:15+00:00</lastModificationDateTime>
             <lastPublicationDateTime __type="object" __classname="DateTime">2016-09-19T19:32:15+00:00</lastPublicationDateTime>
             <properties>
-             <image __type="object" __identifier="dd2a1a82-afde-4f13-9d79-9b1cd50d6d61" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;dd2a1a82-afde-4f13-9d79-9b1cd50d6d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;600x400.png&quot;,&quot;hash&quot;:&quot;f8f7bc99446ee6090be7fdd4641e5e0c77be6447&quot;,&quot;__identity&quot;:&quot;3fc3b99a-697c-457e-8581-22eff3ce97d4&quot;}}</image>
+             <image __type="object" __identifier="dd2a1a82-afde-4f13-9d79-9b1cd50d6d61" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;dd2a1a82-afde-4f13-9d79-9b1cd50d6d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;600x400.png&quot;,&quot;hash&quot;:&quot;f8f7bc99446ee6090be7fdd4641e5e0c77be6447&quot;,&quot;__identity&quot;:&quot;3fc3b99a-697c-457e-8581-22eff3ce97d4&quot;}}</image>
              <title __type="string">Image caption 7</title>
             </properties>
            </variant>
@@ -1930,7 +1930,7 @@ London WC2H 8AG</text>
             <lastModificationDateTime __type="object" __classname="DateTime">2016-09-19T19:31:34+00:00</lastModificationDateTime>
             <lastPublicationDateTime __type="object" __classname="DateTime">2016-09-19T19:31:34+00:00</lastPublicationDateTime>
             <properties>
-             <image __type="object" __identifier="dd2a1a82-afde-4f13-9d79-9b1cd50d6d61" __classname="TYPO3\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;dd2a1a82-afde-4f13-9d79-9b1cd50d6d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;600x400.png&quot;,&quot;hash&quot;:&quot;f8f7bc99446ee6090be7fdd4641e5e0c77be6447&quot;,&quot;__identity&quot;:&quot;3fc3b99a-697c-457e-8581-22eff3ce97d4&quot;}}</image>
+             <image __type="object" __identifier="dd2a1a82-afde-4f13-9d79-9b1cd50d6d61" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;dd2a1a82-afde-4f13-9d79-9b1cd50d6d61&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;600x400.png&quot;,&quot;hash&quot;:&quot;f8f7bc99446ee6090be7fdd4641e5e0c77be6447&quot;,&quot;__identity&quot;:&quot;3fc3b99a-697c-457e-8581-22eff3ce97d4&quot;}}</image>
              <title __type="string">Image caption 8</title>
             </properties>
            </variant>
@@ -1975,7 +1975,7 @@ London WC2H 8AG</text>
        </properties>
       </variant>
       <node identifier="06e3a7c6-8f38-a449-7995-df756d6ddacc" nodeName="content">
-       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="7" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="7" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en</language>
         </dimensions>
@@ -1986,7 +1986,7 @@ London WC2H 8AG</text>
         <properties/>
        </variant>
        <node identifier="910c65d5-8958-4695-9dc1-49165e53aa7a" nodeName="node-57e90339caef6">
-        <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:TwoColumn" version="4" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:TwoColumn" version="4" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en</language>
          </dimensions>
@@ -1999,7 +1999,7 @@ London WC2H 8AG</text>
          </properties>
         </variant>
         <node identifier="3fb1e4bc-3397-c2f0-e207-707fcca1c6f6" nodeName="column0">
-         <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en</language>
           </dimensions>
@@ -2010,7 +2010,7 @@ London WC2H 8AG</text>
           <properties/>
          </variant>
          <node identifier="c24e1441-bd71-45fd-8061-305cec7a1ea9" nodeName="node-57e903a03197e">
-          <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Text" version="4" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en</language>
            </dimensions>
@@ -2025,7 +2025,7 @@ London WC2H 8AG</text>
          </node>
         </node>
         <node identifier="41615949-ac15-4f18-6878-f1915f83b896" nodeName="column1">
-         <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en</language>
           </dimensions>
@@ -2088,7 +2088,7 @@ London WC2H 8AG</text>
        </properties>
       </variant>
       <node identifier="f9a0c41b-bc01-463c-a222-d5053b033e4c" nodeName="content">
-       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en</language>
         </dimensions>
@@ -2099,7 +2099,7 @@ London WC2H 8AG</text>
         <properties/>
        </variant>
        <node identifier="4c4408be-dbac-40dd-b96e-a2d14a7c72b7" nodeName="node-57e90339caef6">
-        <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:TwoColumn" version="2" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:TwoColumn" version="2" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en</language>
          </dimensions>
@@ -2112,7 +2112,7 @@ London WC2H 8AG</text>
          </properties>
         </variant>
         <node identifier="a5e8af6e-b1f3-47a7-b34b-e3ca3d72fb4d" nodeName="column0">
-         <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en</language>
           </dimensions>
@@ -2123,7 +2123,7 @@ London WC2H 8AG</text>
           <properties/>
          </variant>
          <node identifier="f6abcc0c-bc82-4343-8d8e-2cdebf900d59" nodeName="node-57e903a03197e">
-          <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="2" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Text" version="2" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en</language>
            </dimensions>
@@ -2138,7 +2138,7 @@ London WC2H 8AG</text>
          </node>
         </node>
         <node identifier="2ae39d6a-dd94-44b9-86a3-bb67018c8d4f" nodeName="column1">
-         <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en</language>
           </dimensions>
@@ -2186,7 +2186,7 @@ London WC2H 8AG</text>
        </properties>
       </variant>
       <node identifier="4590b1f7-c720-4141-a596-cb7340aceef4" nodeName="content">
-       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="4" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="4" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en</language>
         </dimensions>
@@ -2197,7 +2197,7 @@ London WC2H 8AG</text>
         <properties/>
        </variant>
        <node identifier="9e486651-5a39-4524-8129-23a9242759bb" nodeName="node-57e90339caef6">
-        <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:TwoColumn" version="2" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:TwoColumn" version="2" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en</language>
          </dimensions>
@@ -2210,7 +2210,7 @@ London WC2H 8AG</text>
          </properties>
         </variant>
         <node identifier="e1871cb3-ad9e-4567-84d0-b7ba07b92b12" nodeName="column0">
-         <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en</language>
           </dimensions>
@@ -2221,7 +2221,7 @@ London WC2H 8AG</text>
           <properties/>
          </variant>
          <node identifier="78044944-7f2d-41f9-9724-482db5d5c0bc" nodeName="node-57e903a03197e">
-          <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" version="2" removed="" hidden="" hiddenInIndex="">
+          <variant sortingIndex="200" workspace="live" nodeType="Neos.NodeTypes:Text" version="2" removed="" hidden="" hiddenInIndex="">
            <dimensions>
             <language>en</language>
            </dimensions>
@@ -2236,7 +2236,7 @@ London WC2H 8AG</text>
          </node>
         </node>
         <node identifier="6d2a1997-bd82-4eb9-8f88-67d2d8ac47e4" nodeName="column1">
-         <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en</language>
           </dimensions>
@@ -2266,7 +2266,7 @@ London WC2H 8AG</text>
      </node>
     </node>
     <node identifier="086a2560-700c-45e5-a881-52afb904bde7" nodeName="node-57eb9ae0e976a">
-     <variant sortingIndex="251" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
+     <variant sortingIndex="251" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
       <dimensions>
        <language>en</language>
       </dimensions>
@@ -2280,7 +2280,7 @@ London WC2H 8AG</text>
       </properties>
      </variant>
      <node identifier="ac9d1d17-03cb-52e1-345c-f68174bddd20" nodeName="main">
-      <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>en</language>
        </dimensions>
@@ -2291,7 +2291,7 @@ London WC2H 8AG</text>
        <properties/>
       </variant>
       <node identifier="31b089ce-b61c-45e0-a919-15731c25c976" nodeName="node-57eb9aef1272e">
-       <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:ThreeColumn" version="3" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:ThreeColumn" version="3" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>en</language>
         </dimensions>
@@ -2304,7 +2304,7 @@ London WC2H 8AG</text>
         </properties>
        </variant>
        <node identifier="39cfe3de-ce57-3905-4e43-f08f948b0662" nodeName="column0">
-        <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en</language>
          </dimensions>
@@ -2315,7 +2315,7 @@ London WC2H 8AG</text>
          <properties/>
         </variant>
         <node identifier="5ff3a973-fda8-4cdb-8b21-e938ab05cdbd" nodeName="node-57eb9b3076022">
-         <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="7" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="7" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en</language>
           </dimensions>
@@ -2344,7 +2344,7 @@ London WC2H 8AG</text>
         </node>
        </node>
        <node identifier="1e6b76aa-c843-da41-ed89-744052dfc056" nodeName="column1">
-        <variant sortingIndex="200" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en</language>
          </dimensions>
@@ -2355,7 +2355,7 @@ London WC2H 8AG</text>
          <properties/>
         </variant>
         <node identifier="6bc5991f-b833-426f-8401-d94b5c4797b4" nodeName="node-57eb9b2437f5c">
-         <variant sortingIndex="100" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="8" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Headline" version="8" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en</language>
           </dimensions>
@@ -2384,7 +2384,7 @@ London WC2H 8AG</text>
         </node>
        </node>
        <node identifier="4009131a-78ce-cb7b-33aa-7478d76f453b" nodeName="column2">
-        <variant sortingIndex="300" workspace="live" nodeType="TYPO3.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <variant sortingIndex="300" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>en</language>
          </dimensions>
@@ -2407,7 +2407,7 @@ London WC2H 8AG</text>
          </variant>
         </node>
         <node identifier="91c50a5a-55a8-4de4-80e0-bfcbc86ce6ed" nodeName="node-57eb9b07495da">
-         <variant sortingIndex="50" workspace="live" nodeType="TYPO3.Neos.NodeTypes:Headline" version="6" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Headline" version="6" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>en</language>
           </dimensions>

@@ -1,6 +1,6 @@
 privilegeTargets:
 
-  'Neos\NeosContentRepository\Security\Authorization\Privilege\Node\ReadNodePrivilege':
+  'Neos\ContentRepository\Security\Authorization\Privilege\Node\ReadNodePrivilege':
     'ObisConcept.NeosDemo:ProtectedArea':
       matcher: 'isDescendantNodeOf("6cc5fac6-3cae-46ce-82a8-0f496db63c43")'
 
@@ -11,7 +11,7 @@ roles:
       -
         privilegeTarget: 'ObisConcept.NeosDemo:ProtectedArea'
         permission: GRANT
-  'TYPO3.Neos:Editor':
+  'Neos.Neos:Editor':
     privileges:
       -
         privilegeTarget: 'ObisConcept.NeosDemo:ProtectedArea'

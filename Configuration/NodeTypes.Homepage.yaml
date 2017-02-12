@@ -1,8 +1,9 @@
+
 'ObisConcept.NeosDemo:Homepage':
   superTypes:
-    'TYPO3.Neos.NodeTypes:Page': TRUE
+    'Neos.NodeTypes:Page': true
   constraints:
     nodeTypes:
-      'TYPO3.Neos.NodeTypes:Page': TRUE
-      'TYPO3.Neos:Shortcut': TRUE
-      'ObisConcept.NeosDemo:Homepage': FALSE
+      'Neos.NodeTypes:Page': true
+      'Neos.Neos:Shortcut': true
+      'ObisConcept.NeosDemo:Homepage': false

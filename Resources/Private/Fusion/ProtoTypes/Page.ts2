@@ -1,15 +1,15 @@
-prototype(TYPO3.Neos:Page) {
+prototype(Neos.Neos:Page) {
 
     head {
         stylesheets {
-            mainSiteCss = TYPO3.TypoScript:Tag {
+            mainSiteCss = Neos.Fusion:Tag {
                 @position = '10'
                 tagName = 'link'
                 attributes {
                     id = 'site-main-css'
                     media = 'all'
                     rel = 'stylesheet'
-                    href = TYPO3.TypoScript:ResourceUri {
+                    href = Neos.Fusion:ResourceUri {
                         path = 'resource://ObisConcept.NeosDemo/Public/Styles/main.min.css'
                     }
                 }
@@ -17,23 +17,23 @@ prototype(TYPO3.Neos:Page) {
         }
 
         javascripts {
-            mainSiteJs = TYPO3.TypoScript:Tag {
+            mainSiteJs = Neos.Fusion:Tag {
                 @position = '10'
                 tagName = 'script'
                 attributes {
                     type = 'text/javascript'
-                    src = TYPO3.TypoScript:ResourceUri {
+                    src = Neos.Fusion:ResourceUri {
                         path = 'resource://ObisConcept.NeosDemo/Public/JavaScript/main.min.js'
                     }
                 }
             }
 
-            backendSiteJs = TYPO3.TypoScript:Tag {
+            backendSiteJs = Neos.Fusion:Tag {
                 @position = '20'
                 tagName = 'script'
                 attributes {
                     type = 'text/javascript'
-                    src = TYPO3.TypoScript:ResourceUri {
+                    src = Neos.Fusion:ResourceUri {
                         path = 'resource://ObisConcept.NeosDemo/Public/JavaScript/backend.min.js'
                     }
                 }

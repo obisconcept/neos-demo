@@ -1,4 +1,4 @@
-type: 'TYPO3.Form:Form'
+type: 'Neos.Form:Form'
 identifier: contact-form
 label:
 renderingOptions:
@@ -11,49 +11,49 @@ renderingOptions:
   containerClassAttribute: ''
 renderables:
   -
-    type: 'TYPO3.Form:Page'
+    type: 'Neos.Form:Page'
     identifier: page-one
     renderables:
       -
-        type: 'TYPO3.Form:Section'
+        type: 'Neos.Form:Section'
         identifier: 'section-one'
         properties:
           sectionClassAttribute: 'col-sm-12'
         renderables:
           -
-            type: 'TYPO3.Form:SingleLineText'
+            type: 'Neos.Form:SingleLineText'
             identifier: name
             label: 'Name'
             validators:
-              - identifier: 'TYPO3.Flow:NotEmpty'
+              - identifier: 'Neos.Flow:NotEmpty'
             properties:
               placeholder: 'Name'
             defaultValue: ''
           -
-            type: 'TYPO3.Form:SingleLineText'
+            type: 'Neos.Form:SingleLineText'
             identifier: email
             label: 'E-Mail'
             validators:
-              - identifier: 'TYPO3.Flow:NotEmpty'
-              - identifier: 'TYPO3.Flow:EmailAddress'
+              - identifier: 'Neos.Flow:NotEmpty'
+              - identifier: 'Neos.Flow:EmailAddress'
             properties:
               placeholder: 'E-Mail'
             defaultValue: ''
           -
-            type: 'TYPO3.Form:SingleLineText'
+            type: 'Neos.Form:SingleLineText'
             identifier: subject
             label: 'Betreff'
             validators:
-              - identifier: 'TYPO3.Flow:NotEmpty'
+              - identifier: 'Neos.Flow:NotEmpty'
             properties:
               placeholder: 'Betreff'
             defaultValue: ''
           -
-            type: 'TYPO3.Form:MultiLineText'
+            type: 'Neos.Form:MultiLineText'
             identifier: message
             label: 'Nachricht'
             validators:
-              - identifier: 'TYPO3.Flow:NotEmpty'
+              - identifier: 'Neos.Flow:NotEmpty'
             properties:
               placeholder: 'Nachricht'
               rows: 10
@@ -66,7 +66,7 @@ renderables:
               sitekey: '6LdemCQTAAAAAOKE0KPqP0sOEMe6AderJq0zv4YJ'
 finishers:
   -
-    identifier: 'TYPO3.Form:Email'
+    identifier: 'Neos.Form:Email'
     options:
       templatePathAndFilename: 'resource://ObisConcept.NeosDemo/Private/Templates/Email/Message.html'
       subject: '{betreff}'
@@ -77,7 +77,7 @@ finishers:
       replyToAddress: 'dev@obis-concept.de'
       format: 'html'
   -
-    identifier: 'TYPO3.Form:Confirmation'
+    identifier: 'Neos.Form:Confirmation'
     options:
       message: >
         <h2>Danke für Ihre Kontaktaufnahme</h2>

@@ -1,9 +1,0 @@
-prototype(ObisConcept.NeosDemo:BreadcrumbMenu) < prototype(TYPO3.Neos:Menu) {
-
-    templatePath = 'resource://ObisConcept.NeosDemo/Private/Templates/ProtoTypes/BreadcrumbMenu.html'
-    
-    itemCollection = ${Array.reverse(q(node).add(q(node).parents('[instanceof TYPO3.Neos:Document]')).get())}
-    
-    renderHiddenInIndex = TRUE
-
-}
