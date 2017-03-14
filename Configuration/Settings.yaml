@@ -13,6 +13,8 @@ Neos:
         title: 'Kontakt Formular'
         parentPreset: bootstrap
   Neos:
+    eventLog:
+      enabled: TRUE
     userInterface:
       translation:
         autoInclude:
