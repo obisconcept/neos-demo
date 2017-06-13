@@ -4,8 +4,8 @@
     "description": "A Neos CMS demo website package to present our packages and some other third party packages.",
     "license": "GPL-3.0+",
     "require": {
-        "neos/neos": "~3.0.0",
-        "neos/nodetypes": "~3.0.0",
+        "neos/neos": "~3.1.0",
+        "neos/nodetypes": "~3.1.0",
         "neos/seo": "~2.0",
         "flowpack/neos-frontendlogin": "~3.0.0",
         "obisconcept/neos-jquery": "dev-master",
